@@ -1,0 +1,3 @@
+2024-01-04T09:52:29+01:00: User-email:aspidagames@gmail.com [UserId=6] spent 50 of gold - Bought Plus bonus.Type:a1 Had[999999] and now has[999949]
+2024-01-04T09:52:34+01:00: User-email:aspidagames@gmail.com [UserId=6] spent 20 of gold - Bought Plus bonus.Type:plus Had[999949] and now has[999929]
+2024-01-04T10:05:46+01:00: User-email:aspidagames@gmail.com [UserId=6] spent 2 of gold - Instant build used Had[999929] and now has[999927]

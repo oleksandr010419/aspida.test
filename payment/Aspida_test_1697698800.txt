@@ -1,0 +1,7 @@
+2023-10-24T07:09:05+02:00: User-email:aspidagames@gmail.com [UserId=6] spent 2 of gold - Instant build used Had[999999] and now has[999997]
+2023-10-24T07:09:57+02:00: User-email:aspidagames@gmail.com [UserId=6] spent 2 of gold - Instant build used Had[999997] and now has[999995]
+2023-10-24T07:10:14+02:00: User-email:aspidagames@gmail.com [UserId=6] spent 2 of gold - Instant build used Had[999995] and now has[999993]
+2023-10-24T07:10:24+02:00: User-email:aspidagames@gmail.com [UserId=6] spent 2 of gold - Instant build used Had[999993] and now has[999991]
+2023-10-24T07:11:41+02:00: User-email:aspidagames@gmail.com [UserId=6] spent 2 of gold - Instant build used Had[999991] and now has[999989]
+2023-10-24T07:11:54+02:00: User-email:aspidagames@gmail.com [UserId=6] spent 2 of gold - Instant build used Had[999989] and now has[999987]
+2023-10-24T07:12:03+02:00: User-email:aspidagames@gmail.com [UserId=6] spent 2 of gold - Instant build used Had[999987] and now has[999985]

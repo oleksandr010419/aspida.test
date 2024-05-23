@@ -1,0 +1,51 @@
+.ie6 div#popup.activation div{text-align:left;}div#popup.activation div.greenbox{margin-bottom:20px;}
+div#popup.activation div.greenbox div.greenbox-content{padding:0 15px;width:521px;}
+.ie6 div#popup.activation div{text-align:left;}div#popup.activation div.greenbox{margin-bottom:20px;}
+div#popup.activation div.greenbox div.greenbox-content{padding:0 15px;width:521px;}
+div#popup span.errormessage{line-height:22px;}div#popup #chooseOtherServerContainer{padding-top:10px;}
+div#popup #chooseOtherServerForm{background-color:none;margin-top:12px;margin-left:28px;}
+div#popup div#chooseOtherServerForm div.serverList,div#popup div#chooseOtherServerForm div#otherServers{background:none;}
+.ie6 div#popup div#chooseOtherServerForm div#otherServers{position:relative;}div#popup div#chooseOtherServerForm div#otherServers{width:495px;padding:0;}
+div#popup #chooseOtherServerForm div.serverSmall{float:left;}div#popup.activation div#worldStartInfo{margin:0 auto 20px;position:relative;width:508px;height:149px;background-image:url(../../img/activate/countdownInfoBox-ltr.jpg);}
+div#popup.activation div#worldStartInfo div.countdownContent{position:absolute;left:124px;top:39px;width:375px;text-align:center;font-size:14px;font-weight:bold;line-height:25px;}
+.ie6 div#popup.activation div#worldStartInfo div.countdownContent div.countdown{text-align:center;}
+div#popup.activation div#activationFormContainer{background-image:url(../../img/activate/horseman-ltr.jpg);height:120px;padding:20px 15px 15px 15px;width:521px;margin-bottom:20px;margin-left:20px; }
+div#popup.activation div#activationFormContainer table{width:auto;margin-top:15px;}
+div#popup.activation div#activationFormContainer table td.spacer{width:5px;}div#popup.activation div#activationFormContainer table th{white-space:nowrap;font-weight:normal;text-align:left;}
+div#popup.activation div#activationFormContainer table td.activationCode{padding-bottom:10px;}
+div#popup.activation div#activationFormContainer table td input.text{width:175px;}
+div#popup.activation div#activationFormContainer table td div.error{height:16px;line-height:12px;margin-top:1px;width:265px;}
+div#popup.activation div#noMailReceivedForm{margin-top:10px;margin-left:29px;}div#popup.activation div#noMailReceivedForm div#activationMailResend{margin-bottom:10px;}
+div#popup.activation div#noMailReceivedForm ul{list-style-type:none;list-style-position:inside;margin-top:10px;}
+div#popup.activation div#noMailReceivedForm li{background:url(../../img/activate/listitem.png);background-repeat:no-repeat;background-position:left 8px;padding:2px 10px;}
+div#popup.activation div#noMailReceivedForm div.sendAgain{margin-top:20px;margin-bottom:20px;}
+div#popup.activation div#noMailReceivedForm table{width:auto;}div#popup.activation div#noMailReceivedForm table td.spacer{width:5px;}
+div#popup.activation div#noMailReceivedForm table th{font-weight:normal;white-space:nowrap;vertical-align:top;text-align:left;}
+div#popup.activation div#noMailReceivedForm table td{vertical-align:top;}div#popup.activation div#noMailReceivedForm table input.text{width:200px;}
+div#popup.activation div#noMailReceivedForm table td.email,div#popup.activation div#noMailReceivedForm table td.captcha{padding-bottom:10px;}
+div#popup.activation div#noMailReceivedForm table td.captcha div#recaptcha_image img{border:1px solid #252525;}
+div#popup.activation div#noMailReceivedForm table td.captcha a.captchaOptions{font-size:11px;display:block;margin:5px 0 3px;cursor:pointer;}
+div#popup.activation div#noMailReceivedForm table td div.error{height:16px;line-height:12px;margin-top:1px;}
+div#popup.activation div#noMailReceivedForm table td.submit{padding-bottom:10px;}
+div#popup.activation div#changeEmailForm{margin-top:10px;margin-left:29px;}div#popup.activation div#mailChangedAndActivationMailResend{margin:10px 0;}
+div#popup.activation div#changeEmailForm table{width:auto;margin-top:20px;}div#popup.activation div#changeEmailForm table td.spacer{width:5px;}
+div#popup.activation div#changeEmailForm table th{font-weight:normal;white-space:nowrap;vertical-align:top;text-align:left;}
+div#popup.activation div#changeEmailForm table td{vertical-align:top;}div#popup.activation div#changeEmailForm table input.text{width:200px;}
+div#popup.activation div#changeEmailForm table td.oldEmailOrUsername,div#popup.activation div#changeEmailForm table td.newEmail,div#popup.activation div#changeEmailForm table td.password,div#popup.activation div#changeEmailForm table td.passwordRepeat,div#popup.activation div#changeEmailForm table td.age{padding-bottom:15px;}
+div#popup.activation div#changeEmailForm table td div.error{height:16px;line-height:12px;margin-top:1px;}
+div#popup.activation div#changeEmailForm table td.submit{padding-bottom:10px;}div#popup h3.chooseAServer{margin:0 0 10px 34px;font-size:12pt;}
+div#popup div.switchButton{height:24px;line-height:24px;padding-right:13px;font-weight:bold;cursor:pointer;}
+div#popup div.switchButton img.roundArrow.closed,div#popup div.switchButton img.roundArrow.closed:hover,div#popup div.switchButton img.roundArrow.closed:active,div#popup div.switchButton img.roundArrow.opened,div#popup div.switchButton img.roundArrow.opened:hover,div#popup div.switchButton img.roundArrow.opened:active{width:18px;height:24px;background-image:url(../../img/activate/opened-ltr.png);float:left;margin:3px 5px 0 0;}
+div#popup div.switchButton img.roundArrow.closed,div#popup div.switchButton img.roundArrow.closed:hover,div#popup div.switchButton img.roundArrow.closed:active{background-image:url(../../img/activate/closed-ltr.png);}
+div#popup div.switchButton img.roundArrow.closed:hover,div#popup div.switchButton img.roundArrow.opened:hover{background-position:0 -28px;}
+div#popup div.switchButton img.roundArrow.closed:active,div#popup div.switchButton img.roundArrow.opened:active{background-position:0 -56px;}
+div#popup .spacer{height:5px;}div#popup div.currentServer,div#popup div.classicServer{width:475px;padding:0 37px;}
+.ie6 div#popup.activation div{text-align:left;}div#popup.activation div.greenbox{margin-bottom:20px;}
+div#popup.activation div.greenbox div.greenbox-content{padding:0 15px;width:521px;}
+div#popup.register div#registerForm table td.generalTermsAndConditions,div#popup.register div#registerForm table td.newsletter,div#popup.register div#registerForm table td.submit{padding-bottom:0;width:350px;}
+div#popup div.currentServer div.activeWorldForActivation,div#popup div.currentServer div.activeWorldForActivation:hover{background-position:left center;}
+html,body,div,span,iframe,h1,h2,h3,h4,h5,h6,p,a,img,b,u,i,center,ol,ul,li,form,label,table,tbody,tfoot,thead,tr,th{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background-color:transparent;background-position:left top;background-repeat:no-repeat;}
+ol,ul{list-style:none;}body{height:100%;font-family:Arial,Helvetica,sans-serif;font-size:13px;background-color:#9fb777;direction:ltr;}
+table td, table th{
+    background-color: transparent;
+}

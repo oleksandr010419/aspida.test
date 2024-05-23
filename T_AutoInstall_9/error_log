@@ -1,0 +1,12 @@
+[04-May-2020 09:00:38 Europe/Berlin] PHP Warning:  Use of undefined constant SPEED - assumed 'SPEED' (this will throw an Error in a future version of PHP) in /var/www/html/test/GameEngine/Lang/ru.php on line 244
+[04-May-2020 09:00:38 Europe/Berlin] PHP Warning:  Use of undefined constant GAME_ROUND - assumed 'GAME_ROUND' (this will throw an Error in a future version of PHP) in /var/www/html/test/GameEngine/Lang/ru.php on line 244
+[04-May-2020 09:00:38 Europe/Berlin] PHP Warning:  Use of undefined constant xQUEST - assumed 'xQUEST' (this will throw an Error in a future version of PHP) in /var/www/html/test/GameEngine/Lang/ru.php on line 3507
+[04-May-2020 09:00:38 Europe/Berlin] PHP Warning:  A non-numeric value encountered in /var/www/html/test/GameEngine/Lang/ru.php on line 3507
+[04-May-2020 09:06:59 Europe/Berlin] PHP Warning:  Use of undefined constant SPEED - assumed 'SPEED' (this will throw an Error in a future version of PHP) in /var/www/html/test/GameEngine/Lang/ru.php on line 244
+[04-May-2020 09:06:59 Europe/Berlin] PHP Warning:  Use of undefined constant GAME_ROUND - assumed 'GAME_ROUND' (this will throw an Error in a future version of PHP) in /var/www/html/test/GameEngine/Lang/ru.php on line 244
+[04-May-2020 09:06:59 Europe/Berlin] PHP Warning:  Use of undefined constant xQUEST - assumed 'xQUEST' (this will throw an Error in a future version of PHP) in /var/www/html/test/GameEngine/Lang/ru.php on line 3507
+[04-May-2020 09:06:59 Europe/Berlin] PHP Warning:  A non-numeric value encountered in /var/www/html/test/GameEngine/Lang/ru.php on line 3507
+[04-May-2020 09:07:31 Europe/Berlin] PHP Warning:  Use of undefined constant SPEED - assumed 'SPEED' (this will throw an Error in a future version of PHP) in /var/www/html/test/GameEngine/Lang/ru.php on line 244
+[04-May-2020 09:07:31 Europe/Berlin] PHP Warning:  Use of undefined constant GAME_ROUND - assumed 'GAME_ROUND' (this will throw an Error in a future version of PHP) in /var/www/html/test/GameEngine/Lang/ru.php on line 244
+[04-May-2020 09:07:31 Europe/Berlin] PHP Warning:  Use of undefined constant xQUEST - assumed 'xQUEST' (this will throw an Error in a future version of PHP) in /var/www/html/test/GameEngine/Lang/ru.php on line 3507
+[04-May-2020 09:07:31 Europe/Berlin] PHP Warning:  A non-numeric value encountered in /var/www/html/test/GameEngine/Lang/ru.php on line 3507

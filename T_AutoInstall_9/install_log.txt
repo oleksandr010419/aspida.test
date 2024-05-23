@@ -1,0 +1,681 @@
+2020-05-25T20:00:01+02:00:Copy users...
+2020-05-25T20:00:01+02:00:Send out invitations
+2020-05-25T20:00:01+02:00:Starting mailer scriptSELECT DISTINCT lower(email) FROM user_emails where server_id='10' AND  lower(email) LIKE lower("farm1@example.com") OR  lower(email) LIKE lower("farm2@example.com") OR  lower(email) LIKE lower("farm3@example.com") OR  lower(email) LIKE lower("farm4@example.com") OR  lower(email) LIKE lower("farm5@example.com") OR  lower(email) LIKE lower("farm6@example.com") OR  lower(email) LIKE lower("farm7@example.com") OR  lower(email) LIKE lower("farm8@example.com") OR  lower(email) LIKE lower("farm9@example.com") OR  lower(email) LIKE lower("farm10@example.com") OR  lower(email) LIKE lower("farm11@example.com") OR  lower(email) LIKE lower("farm12@example.com") OR  lower(email) LIKE lower("farm13@example.com") OR  lower(email) LIKE lower("farm14@example.com") OR  lower(email) LIKE lower("farm15@example.com") OR  lower(email) LIKE lower("farm16@example.com") OR  lower(email) LIKE lower("farm17@example.com") OR  lower(email) LIKE lower("farm18@example.com") OR  lower(email) LIKE lower("farm19@example.com") OR  lower(email) LIKE lower("farm20@example.com") OR  lower(email) LIKE lower("farm301@example.com") OR  lower(email) LIKE lower("farm1111@example.com")No new users to addNo emails sent!No emails sent!
+2020-05-25T20:00:01+02:00:Save database structure
+2020-05-25T20:00:01+02:00:Drop database structure
+2020-05-25T20:00:04+02:00:Rebuild database structure
+2020-05-25T20:00:07+02:00:Create map
+2020-05-25T20:01:26+02:00:
+2020-05-25T20:01:26+02:00:Reset start time and isFinished flag
+2020-05-25T20:01:26+02:00:Setting OPENING:1590476400
+2020-05-25T20:01:26+02:00:Current OPENING:1586415600
+2020-05-25T20:01:26+02:00:Current GAME_ROUND:33
+2020-05-25T20:01:26+02:00:Setting multihunter
+2020-05-25T20:01:26+02:00:
+2020-05-25T20:01:26+02:00:Setting oasis
+2020-05-25T20:01:51+02:00:
+2020-05-25T20:01:52+02:00:
+2020-05-25T20:01:52+02:00: Done.
+2020-07-11T20:00:01+02:00:Copy users...
+2020-07-11T20:00:01+02:00:Send out invitations
+2020-07-11T20:00:01+02:00:Starting mailer scriptSELECT DISTINCT lower(email) FROM user_emails where server_id='10' AND  lower(email) LIKE lower("farm1@example.com") OR  lower(email) LIKE lower("farm2@example.com") OR  lower(email) LIKE lower("farm3@example.com") OR  lower(email) LIKE lower("farm4@example.com") OR  lower(email) LIKE lower("farm5@example.com") OR  lower(email) LIKE lower("farm6@example.com") OR  lower(email) LIKE lower("farm7@example.com") OR  lower(email) LIKE lower("farm8@example.com") OR  lower(email) LIKE lower("farm9@example.com") OR  lower(email) LIKE lower("farm10@example.com") OR  lower(email) LIKE lower("farm11@example.com") OR  lower(email) LIKE lower("farm12@example.com") OR  lower(email) LIKE lower("farm13@example.com") OR  lower(email) LIKE lower("farm14@example.com") OR  lower(email) LIKE lower("farm15@example.com") OR  lower(email) LIKE lower("farm16@example.com") OR  lower(email) LIKE lower("farm17@example.com") OR  lower(email) LIKE lower("farm18@example.com") OR  lower(email) LIKE lower("farm19@example.com") OR  lower(email) LIKE lower("farm20@example.com")No new users to addNo emails sent!No emails sent!
+2020-07-11T20:00:01+02:00:Save database structure
+2020-07-11T20:00:01+02:00:Drop database structure
+2020-07-11T20:00:02+02:00:Rebuild database structure
+2020-07-11T20:00:04+02:00:Create map
+2020-07-11T20:01:21+02:00:
+2020-07-11T20:01:21+02:00:Reset start time and isFinished flag
+2020-07-11T20:01:21+02:00:Setting OPENING:1594537200
+2020-07-11T20:01:21+02:00:Current OPENING:1590476400
+2020-07-11T20:01:21+02:00:Current GAME_ROUND:34
+2020-07-11T20:01:21+02:00:Setting multihunter
+2020-07-11T20:01:21+02:00:
+2020-07-11T20:01:21+02:00:Setting oasis
+2020-07-11T20:01:46+02:00:
+2020-07-11T20:01:46+02:00:
+2020-07-11T20:01:46+02:00: Done.
+2020-08-27T20:00:01+02:00:Copy users...
+2020-08-27T20:00:01+02:00:Send out invitations
+2020-08-27T20:00:01+02:00:Starting mailer scriptNothing to do - no users gatherd...No emails sent!No emails sent!
+2020-08-27T20:00:01+02:00:Save database structure
+2020-08-27T20:00:02+02:00:Drop database structure
+2020-08-27T20:00:07+02:00:Rebuild database structure
+2020-08-27T20:00:18+02:00:Create map
+2020-08-27T20:02:34+02:00:
+2020-08-27T20:02:34+02:00:Reset start time and isFinished flag
+2020-08-27T20:02:34+02:00:Setting OPENING:1598598000
+2020-08-27T20:02:34+02:00:Current OPENING:1594537200
+2020-08-27T20:02:34+02:00:Current GAME_ROUND:35
+2020-08-27T20:02:34+02:00:Setting multihunter
+2020-08-27T20:02:34+02:00:
+2020-08-27T20:02:34+02:00:Setting oasis
+2020-08-27T20:03:34+02:00:
+2020-08-27T20:03:35+02:00:
+2020-08-27T20:03:35+02:00: Done.
+2020-10-13T20:00:01+02:00:Copy users...
+2020-10-13T20:00:01+02:00:Send out invitations
+2020-10-13T20:00:01+02:00:Starting mailer scriptNothing to do - no users gatherd...No emails sent!No emails sent!
+2020-10-13T20:00:01+02:00:Save database structure
+2020-10-13T20:00:02+02:00:Drop database structure
+2020-10-13T20:00:03+02:00:Rebuild database structure
+2020-10-13T20:00:07+02:00:Create map
+2020-10-13T20:01:30+02:00:
+2020-10-13T20:01:30+02:00:Reset start time and isFinished flag
+2020-10-13T20:01:30+02:00:Setting OPENING:1602658800
+2020-10-13T20:01:30+02:00:Current OPENING:1598598000
+2020-10-13T20:01:30+02:00:Current GAME_ROUND:36
+2020-10-13T20:01:30+02:00:Setting multihunter
+2020-10-13T20:01:31+02:00:
+2020-10-13T20:01:31+02:00:Setting oasis
+2020-10-13T20:02:03+02:00:
+2020-10-13T20:02:03+02:00:
+2020-10-13T20:02:03+02:00: Done.
+2020-11-29T20:00:01+01:00:Copy users...
+2020-11-29T20:00:01+01:00:Send out invitations
+2020-11-29T20:00:01+01:00:Starting mailer scriptNothing to do - no users gatherd...No emails sent!No emails sent!
+2020-11-29T20:00:01+01:00:Save database structure
+2020-11-29T20:00:02+01:00:Drop database structure
+2020-11-29T20:00:03+01:00:Rebuild database structure
+2020-11-29T20:00:05+01:00:Create map
+2020-11-29T20:01:24+01:00:
+2020-11-29T20:01:24+01:00:Reset start time and isFinished flag
+2020-11-29T20:01:24+01:00:Setting OPENING:1606723200
+2020-11-29T20:01:24+01:00:Current OPENING:1602658800
+2020-11-29T20:01:24+01:00:Current GAME_ROUND:37
+2020-11-29T20:01:24+01:00:Setting multihunter
+2020-11-29T20:01:24+01:00:
+2020-11-29T20:01:24+01:00:Setting oasis
+2020-11-29T20:01:56+01:00:
+2020-11-29T20:01:56+01:00:
+2020-11-29T20:01:56+01:00: Done.
+2021-01-15T20:00:01+01:00:Copy users...
+2021-01-15T20:00:01+01:00:Send out invitations
+2021-01-15T20:00:01+01:00:Starting mailer scriptNothing to do - no users gatherd...No emails sent!No emails sent!
+2021-01-15T20:00:01+01:00:Save database structure
+2021-01-15T20:00:02+01:00:Drop database structure
+2021-01-15T20:00:03+01:00:Rebuild database structure
+2021-01-15T20:00:06+01:00:Create map
+2021-01-15T20:01:22+01:00:
+2021-01-15T20:01:22+01:00:Reset start time and isFinished flag
+2021-01-15T20:01:22+01:00:Setting OPENING:1610784000
+2021-01-15T20:01:22+01:00:Current OPENING:1606723200
+2021-01-15T20:01:22+01:00:Current GAME_ROUND:38
+2021-01-15T20:01:22+01:00:Setting multihunter
+2021-01-15T20:01:22+01:00:
+2021-01-15T20:01:22+01:00:Setting oasis
+2021-01-15T20:01:48+01:00:
+2021-01-15T20:01:48+01:00:
+2021-01-15T20:01:48+01:00: Done.
+2021-03-03T20:00:01+01:00:Copy users...
+2021-03-03T20:00:01+01:00:Send out invitations
+2021-03-03T20:00:01+01:00:Starting mailer scriptNothing to do - no users gatherd...No emails sent!No emails sent!
+2021-03-03T20:00:01+01:00:Save database structure
+2021-03-03T20:00:02+01:00:Drop database structure
+2021-03-03T20:00:02+01:00:Rebuild database structure
+2021-03-03T20:00:04+01:00:Create map
+2021-03-03T20:01:14+01:00:
+2021-03-03T20:01:14+01:00:Reset start time and isFinished flag
+2021-03-03T20:01:14+01:00:Setting OPENING:1614844800
+2021-03-03T20:01:14+01:00:Current OPENING:1610784000
+2021-03-03T20:01:14+01:00:Current GAME_ROUND:39
+2021-03-03T20:01:14+01:00:Setting multihunter
+2021-03-03T20:01:14+01:00:
+2021-03-03T20:01:14+01:00:Setting oasis
+2021-03-03T20:01:40+01:00:
+2021-03-03T20:01:40+01:00:
+2021-03-03T20:01:40+01:00: Done.
+2021-03-31T13:41:48+02:00:Force restart...
+2021-03-31T13:41:48+02:00:Copy users...
+2021-03-31T13:41:48+02:00:Send out invitations
+2021-03-31T13:41:48+02:00:Starting mailer scriptNothing to do - no users gatherd...No emails sent!No emails sent!
+2021-03-31T13:41:48+02:00:Save database structure
+2021-03-31T13:41:48+02:00:Drop database structure
+2021-03-31T13:41:48+02:00:Rebuild database structure
+2021-03-31T13:41:49+02:00:Create map
+2021-03-31T13:43:09+02:00:
+2021-03-31T13:43:09+02:00:Reset start time and isFinished flag
+2021-03-31T13:43:09+02:00:Setting OPENING:1617346800
+2021-03-31T13:43:09+02:00:Current OPENING:1614844800
+2021-03-31T13:43:09+02:00:Current GAME_ROUND:40
+2021-03-31T13:43:09+02:00:Setting multihunter
+2021-03-31T13:43:09+02:00:
+2021-03-31T13:43:09+02:00:Setting oasis
+2021-03-31T13:43:36+02:00:
+2021-03-31T13:43:37+02:00:
+2021-03-31T13:43:37+02:00: Done.
+2021-03-31T13:44:50+02:00:Force restart...
+2021-03-31T13:44:50+02:00:Copy users...
+2021-03-31T13:44:50+02:00:Send out invitations
+2021-03-31T13:44:50+02:00:Starting mailer scriptNothing to do - no users gatherd...No emails sent!No emails sent!
+2021-03-31T13:44:50+02:00:Save database structure
+2021-03-31T13:44:50+02:00:Drop database structure
+2021-03-31T13:44:51+02:00:Rebuild database structure
+2021-03-31T13:44:52+02:00:Create map
+2021-03-31T13:46:14+02:00:
+2021-03-31T13:46:14+02:00:Reset start time and isFinished flag
+2021-03-31T13:46:14+02:00:Setting OPENING:1617346800
+2021-03-31T13:46:14+02:00:Current OPENING:1617346800
+2021-03-31T13:46:14+02:00:Current GAME_ROUND:41
+2021-03-31T13:46:14+02:00:Setting multihunter
+2021-03-31T13:46:14+02:00:
+2021-03-31T13:46:14+02:00:Setting oasis
+2021-03-31T13:46:41+02:00:
+2021-03-31T13:46:41+02:00:
+2021-03-31T13:46:41+02:00: Done.
+2021-05-18T20:00:01+02:00:Copy users...
+2021-05-18T20:00:01+02:00:Send out invitations
+2021-05-18T20:00:01+02:00:Starting mailer scriptNothing to do - no users gatherd...No emails sent!No emails sent!
+2021-05-18T20:00:01+02:00:Save database structure
+2021-05-18T20:00:03+02:00:Drop database structure
+2021-05-18T20:00:06+02:00:Rebuild database structure
+2021-05-18T20:00:07+02:00:Create map
+2021-05-18T20:01:24+02:00:
+2021-05-18T20:01:24+02:00:Reset start time and isFinished flag
+2021-05-18T20:01:24+02:00:Restart after finish...
+2021-05-18T20:01:24+02:00:Setting OPENING:1621407600
+2021-05-18T20:01:24+02:00:Current OPENING:1617346800
+2021-05-18T20:01:24+02:00:Current GAME_ROUND:42
+2021-05-18T20:01:24+02:00:Setting multihunter
+2021-05-18T20:01:24+02:00:
+2021-05-18T20:01:24+02:00:Setting oasis
+2021-05-18T20:01:45+02:00:
+2021-05-18T20:01:45+02:00:
+2021-05-18T20:01:45+02:00: Done.
+2021-07-04T20:00:01+02:00:Copy users...
+2021-07-04T20:00:01+02:00:Send out invitations
+2021-07-04T20:00:01+02:00:Starting mailer scriptNothing to do - no users gatherd...No emails sent!No emails sent!
+2021-07-04T20:00:01+02:00:Save database structure
+2021-07-04T20:00:01+02:00:Drop database structure
+2021-07-04T20:00:03+02:00:Rebuild database structure
+2021-07-04T20:00:05+02:00:Create map
+2021-07-04T20:01:09+02:00:
+2021-07-04T20:01:09+02:00:Reset start time and isFinished flag
+2021-07-04T20:01:09+02:00:Restart after finish...
+2021-07-04T20:01:09+02:00:Setting OPENING:1625468400
+2021-07-04T20:01:09+02:00:Current OPENING:1621407600
+2021-07-04T20:01:09+02:00:Current GAME_ROUND:43
+2021-07-04T20:01:09+02:00:Setting multihunter
+2021-07-04T20:01:09+02:00:
+2021-07-04T20:01:09+02:00:Setting oasis
+2021-07-04T20:01:31+02:00:
+2021-07-04T20:01:32+02:00:
+2021-07-04T20:01:32+02:00: Done.
+2021-08-09T15:50:36+02:00:Copy users...
+2021-08-09T15:50:36+02:00:Send out invitations
+2021-08-09T15:50:36+02:00:Starting mailer scriptSELECT DISTINCT lower(email) FROM user_emails where server_id='10' AND  lower(email) LIKE lower("remco9240@gmail.com") OR  lower(email) LIKE lower("mircea_1971@yahoo.com") OR  lower(email) LIKE lower("drakss0000@gmail.com") OR  lower(email) LIKE lower("castrolucia191@yahoo.com") OR  lower(email) LIKE lower("bartas660@gmail.com") OR  lower(email) LIKE lower("mariocristina2007@yahoo.com") OR  lower(email) LIKE lower("pmgeral88@gmail.com") OR  lower(email) LIKE lower("adpsanitare@gmail.com") OR  lower(email) LIKE lower("roman.lucyv@gmail.com") OR  lower(email) LIKE lower("roman123qweadg@gmail.com") OR  lower(email) LIKE lower("czaplaromeo@gmail.com") OR  lower(email) LIKE lower("darsero@gmail.com") OR  lower(email) LIKE lower("farm1@example.com") OR  lower(email) LIKE lower("farm2@example.com") OR  lower(email) LIKE lower("farm3@example.com") OR  lower(email) LIKE lower("farm4@example.com") OR  lower(email) LIKE lower("farm5@example.com") OR  lower(email) LIKE lower("farm6@example.com") OR  lower(email) LIKE lower("farm7@example.com") OR  lower(email) LIKE lower("farm8@example.com") OR  lower(email) LIKE lower("farm9@example.com") OR  lower(email) LIKE lower("farm10@example.com") OR  lower(email) LIKE lower("farm11@example.com") OR  lower(email) LIKE lower("farm12@example.com") OR  lower(email) LIKE lower("farm13@example.com") OR  lower(email) LIKE lower("farm14@example.com") OR  lower(email) LIKE lower("farm15@example.com") OR  lower(email) LIKE lower("farm16@example.com") OR  lower(email) LIKE lower("farm17@example.com") OR  lower(email) LIKE lower("farm18@example.com") OR  lower(email) LIKE lower("farm19@example.com") OR  lower(email) LIKE lower("farm20@example.com") OR  lower(email) LIKE lower("oscarasdacanoa@gmail.com") OR  lower(email) LIKE lower("bloome252@gmail.com") OR  lower(email) LIKE lower("olerave11@gmail.com") OR  lower(email) LIKE lower("dincarotarurobert@gmail.com") OR  lower(email) LIKE lower("dincarobertmarian37@gmail.com") OR  lower(email) LIKE lower("jjad5523@gmail.com") OR  lower(email) LIKE lower("sapof13075@hyprhost.com") OR  lower(email) LIKE lower("johnson.julius89@yahoo.com") OR  lower(email) LIKE lower("jjeje6420@gmail.com") OR  lower(email) LIKE lower("rene.jure96@gmail.com")No new users to addNo emails sent!No emails sent!
+2021-08-09T15:50:36+02:00:Save database structure
+2021-08-09T15:50:36+02:00:Drop database structure
+2021-08-09T15:50:37+02:00:Rebuild database structure
+2021-08-09T15:50:38+02:00:Create map
+2021-08-09T15:51:54+02:00:
+2021-08-09T15:51:54+02:00:Reset start time and isFinished flag
+2021-08-09T15:51:54+02:00:Forced restart...
+2021-08-09T15:51:54+02:00:Setting OPENING:1628665200
+2021-08-09T15:51:54+02:00:Current OPENING:1626937200
+2021-08-09T15:51:54+02:00:Current GAME_ROUND:51
+2021-08-09T15:51:54+02:00:Setting multihunter
+2021-08-09T15:51:54+02:00:
+2021-08-09T15:51:54+02:00:Setting oasis
+2021-08-09T15:52:28+02:00:
+2021-08-09T15:52:28+02:00:
+2021-08-09T15:52:29+02:00: Done.
+2021-08-09T15:53:48+02:00:Force restart...
+2021-08-09T15:53:48+02:00:Copy users...
+2021-08-09T15:53:48+02:00:Send out invitations
+2021-08-09T15:53:48+02:00:Starting mailer scriptNothing to do - no users gatherd...No emails sent!No emails sent!
+2021-08-09T15:53:48+02:00:Save database structure
+2021-08-09T15:53:48+02:00:Drop database structure
+2021-08-09T15:53:48+02:00:Rebuild database structure
+2021-08-09T15:53:49+02:00:Create map
+2021-08-09T15:55:10+02:00:
+2021-08-09T15:55:10+02:00:Reset start time and isFinished flag
+2021-08-09T15:55:10+02:00:Forced restart...
+2021-08-09T15:55:10+02:00:Setting OPENING:1628665200
+2021-08-09T15:55:10+02:00:Current OPENING:1606723200
+2021-08-09T15:55:10+02:00:Current GAME_ROUND:38
+2021-08-09T15:55:10+02:00:Setting multihunter
+2021-08-09T15:55:10+02:00:
+2021-08-09T15:55:10+02:00:Setting oasis
+2021-08-09T15:55:38+02:00:
+2021-08-09T15:55:38+02:00:
+2021-08-09T15:55:38+02:00: Done.
+2021-09-15T20:00:01+02:00:Copy users...
+2021-09-15T20:00:01+02:00:Send out invitations
+2021-09-15T20:00:01+02:00:Starting mailer scriptNothing to do - no users gatherd...No emails sent!No emails sent!
+2021-09-15T20:00:01+02:00:Save database structure
+2021-09-15T20:00:02+02:00:Drop database structure
+2021-09-15T20:00:04+02:00:Rebuild database structure
+2021-09-15T20:00:06+02:00:Create map
+2021-09-15T20:01:27+02:00:
+2021-09-15T20:01:27+02:00:Reset start time and isFinished flag
+2021-09-15T20:01:27+02:00:Restart after finish...
+2021-09-15T20:01:27+02:00:Setting OPENING:1631775600
+2021-09-15T20:01:27+02:00:Current OPENING:1627714800
+2021-09-15T20:01:27+02:00:Current GAME_ROUND:39
+2021-09-15T20:01:27+02:00:Setting multihunter
+2021-09-15T20:01:27+02:00:
+2021-09-15T20:01:27+02:00:Setting oasis
+2021-09-15T20:01:54+02:00:
+2021-09-15T20:01:54+02:00:
+2021-09-15T20:01:55+02:00: Done.
+2021-11-01T20:00:02+01:00:Copy users...
+2021-11-01T20:00:02+01:00:Send out invitations
+2021-11-01T20:00:02+01:00:Starting mailer scriptNothing to do - no users gatherd...No emails sent!No emails sent!
+2021-11-01T20:00:02+01:00:Save database structure
+2021-11-01T20:00:02+01:00:Drop database structure
+2021-11-01T20:00:03+01:00:Rebuild database structure
+2021-11-01T20:00:05+01:00:Create map
+2021-11-01T20:01:30+01:00:
+2021-11-01T20:01:30+01:00:Reset start time and isFinished flag
+2021-11-01T20:01:30+01:00:Restart after finish...
+2021-11-01T20:01:30+01:00:Setting OPENING:1635840000
+2021-11-01T20:01:30+01:00:Current OPENING:1631775600
+2021-11-01T20:01:30+01:00:Current GAME_ROUND:40
+2021-11-01T20:01:30+01:00:Setting multihunter
+2021-11-01T20:01:30+01:00:
+2021-11-01T20:01:30+01:00:Setting oasis
+2021-11-01T20:01:56+01:00:
+2021-11-01T20:01:56+01:00:
+2021-11-01T20:01:57+01:00: Done.
+2021-12-18T20:00:01+01:00:Copy users...
+2021-12-18T20:00:02+01:00:Send out invitations
+2021-12-18T20:00:02+01:00:Starting mailer scriptNothing to do - no users gatherd...No emails sent!No emails sent!
+2021-12-18T20:00:02+01:00:Save database structure
+2021-12-18T20:00:02+01:00:Drop database structure
+2021-12-18T20:00:02+01:00:Rebuild database structure
+2021-12-18T20:00:04+01:00:Create map
+2021-12-18T20:01:18+01:00:
+2021-12-18T20:01:18+01:00:Reset start time and isFinished flag
+2021-12-18T20:01:18+01:00:Restart after finish...
+2021-12-18T20:01:18+01:00:Setting OPENING:1639900800
+2021-12-18T20:01:18+01:00:Current OPENING:1635840000
+2021-12-18T20:01:18+01:00:Current GAME_ROUND:41
+2021-12-18T20:01:18+01:00:Setting multihunter
+2021-12-18T20:01:18+01:00:
+2021-12-18T20:01:18+01:00:Setting oasis
+2021-12-18T20:01:41+01:00:
+2021-12-18T20:01:41+01:00:
+2021-12-18T20:01:41+01:00: Done.
+2022-02-03T20:00:02+01:00:Copy users...
+2022-02-03T20:00:02+01:00:Send out invitations
+2022-02-03T20:00:02+01:00:Starting mailer scriptNothing to do - no users gatherd...No emails sent!No emails sent!
+2022-02-03T20:00:02+01:00:Save database structure
+2022-02-03T20:00:02+01:00:Drop database structure
+2022-02-03T20:00:03+01:00:Rebuild database structure
+2022-02-03T20:00:06+01:00:Create map
+2022-02-03T20:01:29+01:00:
+2022-02-03T20:01:29+01:00:Reset start time and isFinished flag
+2022-02-03T20:01:29+01:00:Restart after finish...
+2022-02-03T20:01:29+01:00:Setting OPENING:1643961600
+2022-02-03T20:01:29+01:00:Current OPENING:1639900800
+2022-02-03T20:01:29+01:00:Current GAME_ROUND:42
+2022-02-03T20:01:29+01:00:Setting multihunter
+2022-02-03T20:01:29+01:00:
+2022-02-03T20:01:29+01:00:Setting oasis
+2022-02-03T20:01:51+01:00:
+2022-02-03T20:01:51+01:00:
+2022-02-03T20:01:51+01:00: Done.
+2022-03-22T20:00:02+01:00:Copy users...
+2022-03-22T20:00:02+01:00:Send out invitations
+2022-03-22T20:00:02+01:00:Starting mailer scriptNothing to do - no users gatherd...No emails sent!No emails sent!
+2022-03-22T20:00:02+01:00:Save database structure
+2022-03-22T20:00:02+01:00:Drop database structure
+2022-03-22T20:00:03+01:00:Rebuild database structure
+2022-03-22T20:00:05+01:00:Create map
+2022-03-22T20:01:37+01:00:
+2022-03-22T20:01:37+01:00:Reset start time and isFinished flag
+2022-03-22T20:01:37+01:00:Restart after finish...
+2022-03-22T20:01:37+01:00:Setting OPENING:1648022400
+2022-03-22T20:01:37+01:00:Current OPENING:1643961600
+2022-03-22T20:01:37+01:00:Current GAME_ROUND:43
+2022-03-22T20:01:37+01:00:Setting multihunter
+2022-03-22T20:01:37+01:00:
+2022-03-22T20:01:37+01:00:Setting oasis
+2022-03-22T20:02:05+01:00:
+2022-03-22T20:02:05+01:00:
+2022-03-22T20:02:05+01:00: Done.
+2022-05-08T20:00:01+02:00:Copy users...
+2022-05-08T20:00:01+02:00:Send out invitations
+2022-05-08T20:00:01+02:00:Starting mailer scriptNothing to do - no users gatherd...No emails sent!No emails sent!
+2022-05-08T20:00:01+02:00:Save database structure
+2022-05-08T20:00:01+02:00:Drop database structure
+2022-05-08T20:00:03+02:00:Rebuild database structure
+2022-05-08T20:00:04+02:00:Create map
+2022-05-08T20:01:12+02:00:
+2022-05-08T20:01:12+02:00:Reset start time and isFinished flag
+2022-05-08T20:01:12+02:00:Restart after finish...
+2022-05-08T20:01:12+02:00:Setting OPENING:1652079600
+2022-05-08T20:01:12+02:00:Current OPENING:1648022400
+2022-05-08T20:01:12+02:00:Current GAME_ROUND:44
+2022-05-08T20:01:12+02:00:Setting multihunter
+2022-05-08T20:01:13+02:00:
+2022-05-08T20:01:13+02:00:Setting oasis
+2022-05-08T20:01:36+02:00:
+2022-05-08T20:01:36+02:00:
+2022-05-08T20:01:36+02:00: Done.
+2022-06-24T20:05:00+02:00:Copy users...
+2022-06-24T20:05:00+02:00:Send out invitations
+2022-06-24T20:05:00+02:00:Starting mailer scriptNothing to do - no users gatherd...No emails sent!No emails sent!
+2022-06-24T20:05:00+02:00:Save database structure
+2022-06-24T20:05:00+02:00:Drop database structure
+2022-06-24T20:05:02+02:00:Rebuild database structure
+2022-06-24T20:05:03+02:00:Create map
+2022-06-24T20:06:13+02:00:
+2022-06-24T20:06:13+02:00:Reset start time and isFinished flag
+2022-06-24T20:06:13+02:00:Restart after finish...
+2022-06-24T20:06:13+02:00:Setting OPENING:1656140400
+2022-06-24T20:06:13+02:00:Current OPENING:1652079600
+2022-06-24T20:06:13+02:00:Current GAME_ROUND:45
+2022-06-24T20:06:13+02:00:Setting multihunter
+2022-06-24T20:06:13+02:00:
+2022-06-24T20:06:13+02:00:Setting oasis
+2022-06-24T20:06:39+02:00:
+2022-06-24T20:06:39+02:00:
+2022-06-24T20:06:39+02:00: Done.
+2022-08-10T20:00:01+02:00:Copy users...
+2022-08-10T20:00:01+02:00:Send out invitations
+2022-08-10T20:00:01+02:00:Starting mailer scriptNothing to do - no users gatherd...No emails sent!No emails sent!
+2022-08-10T20:00:01+02:00:Save database structure
+2022-08-10T20:00:01+02:00:Drop database structure
+2022-08-10T20:00:03+02:00:Rebuild database structure
+2022-08-10T20:00:05+02:00:Create map
+2022-08-10T20:01:23+02:00:
+2022-08-10T20:01:23+02:00:Reset start time and isFinished flag
+2022-08-10T20:01:23+02:00:Restart after finish...
+2022-08-10T20:01:23+02:00:Setting OPENING:1660201200
+2022-08-10T20:01:23+02:00:Current OPENING:1656140400
+2022-08-10T20:01:23+02:00:Current GAME_ROUND:46
+2022-08-10T20:01:23+02:00:Setting multihunter
+2022-08-10T20:01:23+02:00:
+2022-08-10T20:01:23+02:00:Setting oasis
+2022-08-10T20:01:47+02:00:
+2022-08-10T20:01:47+02:00:
+2022-08-10T20:01:47+02:00: Done.
+2022-09-26T20:00:02+02:00:Copy users...
+2022-09-26T20:00:02+02:00:Send out invitations
+2022-09-26T20:00:02+02:00:Starting mailer scriptNothing to do - no users gatherd...No emails sent!No emails sent!
+2022-09-26T20:00:02+02:00:Save database structure
+2022-09-26T20:00:02+02:00:Drop database structure
+2022-09-26T20:00:04+02:00:Rebuild database structure
+2022-09-26T20:00:06+02:00:Create map
+2022-09-26T20:01:53+02:00:
+2022-09-26T20:01:53+02:00:Reset start time and isFinished flag
+2022-09-26T20:01:53+02:00:Restart after finish...
+2022-09-26T20:01:53+02:00:Setting OPENING:1664262000
+2022-09-26T20:01:53+02:00:Current OPENING:1660201200
+2022-09-26T20:01:53+02:00:Current GAME_ROUND:47
+2022-09-26T20:01:53+02:00:Setting multihunter
+2022-09-26T20:01:53+02:00:
+2022-09-26T20:01:53+02:00:Setting oasis
+2022-09-26T20:02:32+02:00:
+2022-09-26T20:02:32+02:00:
+2022-09-26T20:02:33+02:00: Done.
+2022-11-12T20:00:01+01:00:Copy users...
+2022-11-12T20:00:01+01:00:Send out invitations
+2022-11-12T20:00:01+01:00:Starting mailer scriptNothing to do - no users gatherd...No emails sent!No emails sent!
+2022-11-12T20:00:01+01:00:Save database structure
+2022-11-12T20:00:02+01:00:Drop database structure
+2022-11-12T20:00:05+01:00:Rebuild database structure
+2022-11-12T20:00:11+01:00:Create map
+2022-11-12T20:01:44+01:00:
+2022-11-12T20:01:44+01:00:Reset start time and isFinished flag
+2022-11-12T20:01:44+01:00:Restart after finish...
+2022-11-12T20:01:44+01:00:Setting OPENING:1668326400
+2022-11-12T20:01:44+01:00:Current OPENING:1664262000
+2022-11-12T20:01:44+01:00:Current GAME_ROUND:48
+2022-11-12T20:01:44+01:00:Setting multihunter
+2022-11-12T20:01:44+01:00:
+2022-11-12T20:01:44+01:00:Setting oasis
+2022-11-12T20:02:13+01:00:
+2022-11-12T20:02:13+01:00:
+2022-11-12T20:02:13+01:00: Done.
+2022-12-29T20:00:01+01:00:Copy users...
+2022-12-29T20:00:01+01:00:Send out invitations
+2022-12-29T20:00:01+01:00:Starting mailer scriptNothing to do - no users gatherd...No emails sent!No emails sent!
+2022-12-29T20:00:01+01:00:Save database structure
+2022-12-29T20:00:01+01:00:Drop database structure
+2022-12-29T20:00:03+01:00:Rebuild database structure
+2022-12-29T20:00:05+01:00:Create map
+2022-12-29T20:01:14+01:00:
+2022-12-29T20:01:14+01:00:Reset start time and isFinished flag
+2022-12-29T20:01:14+01:00:Restart after finish...
+2022-12-29T20:01:14+01:00:Setting OPENING:1672387200
+2022-12-29T20:01:14+01:00:Current OPENING:1668326400
+2022-12-29T20:01:14+01:00:Current GAME_ROUND:49
+2022-12-29T20:01:14+01:00:Setting multihunter
+2022-12-29T20:01:14+01:00:
+2022-12-29T20:01:14+01:00:Setting oasis
+2022-12-29T20:01:40+01:00:
+2022-12-29T20:01:40+01:00:
+2022-12-29T20:01:40+01:00: Done.
+2023-02-14T20:05:01+01:00:Copy users...
+2023-02-14T20:05:02+01:00:Send out invitations
+2023-02-14T20:05:02+01:00:Starting mailer scriptNothing to do - no users gatherd...No emails sent!No emails sent!
+2023-02-14T20:05:02+01:00:Save database structure
+2023-02-14T20:05:02+01:00:Drop database structure
+2023-02-14T20:05:03+01:00:Rebuild database structure
+2023-02-14T20:05:04+01:00:Create map
+2023-02-14T20:06:23+01:00:
+2023-02-14T20:06:23+01:00:Reset start time and isFinished flag
+2023-02-14T20:06:23+01:00:Restart after finish...
+2023-02-14T20:06:23+01:00:Setting OPENING:1676448000
+2023-02-14T20:06:23+01:00:Current OPENING:1672387200
+2023-02-14T20:06:23+01:00:Current GAME_ROUND:50
+2023-02-14T20:06:23+01:00:Setting multihunter
+2023-02-14T20:06:23+01:00:
+2023-02-14T20:06:23+01:00:Setting oasis
+2023-02-14T20:06:47+01:00:
+2023-02-14T20:06:47+01:00:
+2023-02-14T20:06:47+01:00: Done.
+2023-04-02T20:05:01+02:00:Copy users...
+2023-04-02T20:05:01+02:00:Send out invitations
+2023-04-02T20:05:01+02:00:Starting mailer scriptNothing to do - no users gatherd...No emails sent!No emails sent!
+2023-04-02T20:05:01+02:00:Save database structure
+2023-04-02T20:05:01+02:00:Drop database structure
+2023-04-02T20:05:02+02:00:Rebuild database structure
+2023-04-02T20:05:03+02:00:Create map
+2023-04-02T20:06:16+02:00:
+2023-04-02T20:06:16+02:00:Reset start time and isFinished flag
+2023-04-02T20:06:16+02:00:Restart after finish...
+2023-04-02T20:06:16+02:00:Setting OPENING:1680505200
+2023-04-02T20:06:16+02:00:Current OPENING:1676448000
+2023-04-02T20:06:16+02:00:Current GAME_ROUND:51
+2023-04-02T20:06:16+02:00:Setting multihunter
+2023-04-02T20:06:16+02:00:
+2023-04-02T20:06:16+02:00:Setting oasis
+2023-04-02T20:06:39+02:00:
+2023-04-02T20:06:39+02:00:
+2023-04-02T20:06:39+02:00: Done.
+2023-05-19T20:00:01+02:00:Copy users...
+2023-05-19T20:00:01+02:00:Send out invitations
+2023-05-19T20:00:01+02:00:Starting mailer scriptNothing to do - no users gatherd...No emails sent!No emails sent!
+2023-05-19T20:00:01+02:00:Save database structure
+2023-05-19T20:00:01+02:00:Drop database structure
+2023-05-19T20:00:03+02:00:Rebuild database structure
+2023-05-19T20:00:04+02:00:Create map
+2023-05-19T20:01:18+02:00:
+2023-05-19T20:01:18+02:00:Reset start time and isFinished flag
+2023-05-19T20:01:18+02:00:Restart after finish...
+2023-05-19T20:01:18+02:00:Setting OPENING:1684566000
+2023-05-19T20:01:18+02:00:Current OPENING:1680505200
+2023-05-19T20:01:18+02:00:Current GAME_ROUND:52
+2023-05-19T20:01:18+02:00:Setting multihunter
+2023-05-19T20:01:18+02:00:
+2023-05-19T20:01:18+02:00:Setting oasis
+2023-05-19T20:01:41+02:00:
+2023-05-19T20:01:41+02:00:
+2023-05-19T20:01:41+02:00: Done.
+2023-07-05T06:41:54+02:00:Force restart...
+2023-07-05T06:41:54+02:00:Copy users...
+2023-07-05T06:41:54+02:00:Send out invitations
+2023-07-05T06:41:54+02:00:Starting mailer scriptNothing to do - no users gatherd...No emails sent!No emails sent!
+2023-07-05T06:41:54+02:00:Save database structure
+2023-07-05T06:41:54+02:00:Drop database structure
+2023-07-05T06:41:55+02:00:Rebuild database structure
+2023-07-05T06:41:56+02:00:Create map
+2023-07-05T06:43:11+02:00:
+2023-07-05T06:43:11+02:00:Reset start time and isFinished flag
+2023-07-05T06:43:11+02:00:Restart after finish...
+2023-07-05T06:43:11+02:00:Setting OPENING:1688626800
+2023-07-05T06:43:11+02:00:Current OPENING:1684566000
+2023-07-05T06:43:11+02:00:Current GAME_ROUND:53
+2023-07-05T06:43:11+02:00:Setting multihunter
+2023-07-05T06:43:11+02:00:
+2023-07-05T06:43:11+02:00:Setting oasis
+2023-07-05T06:43:36+02:00:
+2023-07-05T06:43:36+02:00:
+2023-07-05T06:43:36+02:00: Done.
+2023-08-21T20:00:01+02:00:Copy users...
+2023-08-21T20:00:01+02:00:Send out invitations
+2023-08-21T20:00:01+02:00:Starting mailer scriptNothing to do - no users gatherd...No emails sent!No emails sent!
+2023-08-21T20:00:01+02:00:Save database structure
+2023-08-21T20:00:01+02:00:Drop database structure
+2023-08-21T20:00:02+02:00:Rebuild database structure
+2023-08-21T20:00:03+02:00:Create map
+2023-08-21T20:01:08+02:00:
+2023-08-21T20:01:08+02:00:Reset start time and isFinished flag
+2023-08-21T20:01:08+02:00:Restart after finish...
+2023-08-21T20:01:08+02:00:Setting OPENING:1692687600
+2023-08-21T20:01:08+02:00:Current OPENING:1688626800
+2023-08-21T20:01:08+02:00:Current GAME_ROUND:54
+2023-08-21T20:01:08+02:00:Setting multihunter
+2023-08-21T20:01:08+02:00:
+2023-08-21T20:01:08+02:00:Setting oasis
+2023-08-21T20:01:29+02:00:
+2023-08-21T20:01:29+02:00:
+2023-08-21T20:01:29+02:00: Done.
+2023-10-07T20:00:01+02:00:Copy users...
+2023-10-07T20:00:01+02:00:Send out invitations
+2023-10-07T20:00:01+02:00:Starting mailer scriptNothing to do - no users gatherd...No emails sent!No emails sent!
+2023-10-07T20:00:01+02:00:Save database structure
+2023-10-07T20:00:01+02:00:Drop database structure
+2023-10-07T20:00:02+02:00:Rebuild database structure
+2023-10-07T20:00:04+02:00:Create map
+2023-10-07T20:01:27+02:00:
+2023-10-07T20:01:27+02:00:Reset start time and isFinished flag
+2023-10-07T20:01:27+02:00:Restart after finish...
+2023-10-07T20:01:27+02:00:Setting OPENING:1696748400
+2023-10-07T20:01:27+02:00:Current OPENING:1692687600
+2023-10-07T20:01:27+02:00:Current GAME_ROUND:55
+2023-10-07T20:01:27+02:00:Setting multihunter
+2023-10-07T20:01:27+02:00:
+2023-10-07T20:01:27+02:00:Setting oasis
+2023-10-07T20:01:53+02:00:
+2023-10-07T20:01:53+02:00:
+2023-10-07T20:01:53+02:00: Done.
+2023-10-14T18:53:36+02:00:Force restart...
+2023-10-14T18:53:36+02:00:Copy users...
+2023-10-14T18:53:36+02:00:Send out invitations
+2023-10-14T18:53:36+02:00:Starting mailer scriptNothing to do - no users gatherd...No emails sent!No emails sent!
+2023-10-14T18:53:36+02:00:Save database structure
+2023-10-14T18:53:36+02:00:Drop database structure
+2023-10-14T18:53:36+02:00:Rebuild database structure
+2023-10-14T18:53:37+02:00:Create map
+2023-10-14T18:54:09+02:00:
+2023-10-14T18:54:09+02:00:Reset start time and isFinished flag
+2023-10-14T18:54:09+02:00:Forced restart...
+2023-10-14T18:54:09+02:00:Setting OPENING:1697439600
+2023-10-14T18:54:09+02:00:Current OPENING:1696748400
+2023-10-14T18:54:09+02:00:Current GAME_ROUND:56
+2023-10-14T18:54:09+02:00:Setting multihunter
+2023-10-14T18:54:09+02:00:
+2023-10-14T18:54:09+02:00:Setting oasis
+2023-10-14T18:54:20+02:00:
+2023-10-14T18:54:20+02:00:
+2023-10-14T18:54:20+02:00: Done.
+2023-10-17T11:47:38+00:00:Force restart...
+2023-10-17T13:47:38+02:00:Copy users...
+2023-10-17T13:47:38+02:00:Send out invitations
+2023-10-17T13:47:38+02:00:Starting mailer scriptNothing to do - no users gatherd...No emails sent!No emails sent!
+2023-10-17T13:47:38+02:00:Save database structure
+2023-10-17T13:47:38+02:00:Drop database structure
+2023-10-17T13:47:38+02:00:Rebuild database structure
+2023-10-17T13:47:39+02:00:Create map
+2023-10-17T13:48:56+02:00:
+2023-10-17T13:48:56+02:00:Reset start time and isFinished flag
+2023-10-17T13:48:56+02:00:Forced restart...
+2023-10-17T13:48:56+02:00:Setting OPENING:1697698800
+2023-10-17T13:48:56+02:00:Current OPENING:1697302600
+2023-10-17T13:48:56+02:00:Current GAME_ROUND:57
+2023-10-17T13:48:56+02:00:Setting multihunter
+2023-10-17T13:48:56+02:00:
+2023-10-17T13:48:56+02:00:Setting oasis
+2023-10-17T13:49:25+02:00:
+2023-10-17T13:49:25+02:00:
+2023-10-17T13:49:25+02:00: Done.
+2023-12-04T20:00:01+01:00:Copy users...
+2023-12-04T20:00:01+01:00:Send out invitations
+2023-12-04T20:00:01+01:00:Starting mailer scriptNothing to do - no users gatherd...No emails sent!No emails sent!
+2023-12-04T20:00:01+01:00:Save database structure
+2023-12-04T20:00:01+01:00:Drop database structure
+2023-12-04T20:00:02+01:00:Rebuild database structure
+2023-12-04T20:00:03+01:00:Create map
+2023-12-04T20:01:14+01:00:
+2023-12-04T20:01:14+01:00:Reset start time and isFinished flag
+2023-12-04T20:01:14+01:00:Restart after finish...
+2023-12-04T20:01:14+01:00:Setting OPENING:1701763200
+2023-12-04T20:01:14+01:00:Current OPENING:1697698800
+2023-12-04T20:01:14+01:00:Current GAME_ROUND:58
+2023-12-04T20:01:14+01:00:Setting multihunter
+2023-12-04T20:01:14+01:00:
+2023-12-04T20:01:14+01:00:Setting oasis
+2023-12-04T20:01:40+01:00:
+2023-12-04T20:01:40+01:00:
+2023-12-04T20:01:40+01:00: Done.
+2024-01-20T20:00:01+01:00:Copy users...
+2024-01-20T20:00:02+01:00:Send out invitations
+2024-01-20T20:00:02+01:00:Starting mailer scriptNothing to do - no users gatherd...No emails sent!No emails sent!
+2024-01-20T20:00:02+01:00:Save database structure
+2024-01-20T20:00:02+01:00:Drop database structure
+2024-01-20T20:00:03+01:00:Rebuild database structure
+2024-01-20T20:00:05+01:00:Create map
+2024-01-20T20:01:38+01:00:
+2024-01-20T20:01:38+01:00:Reset start time and isFinished flag
+2024-01-20T20:01:38+01:00:Restart after finish...
+2024-01-20T20:01:38+01:00:Setting OPENING:1705824000
+2024-01-20T20:01:38+01:00:Current OPENING:1701763200
+2024-01-20T20:01:38+01:00:Current GAME_ROUND:59
+2024-01-20T20:01:38+01:00:Setting multihunter
+2024-01-20T20:01:38+01:00:
+2024-01-20T20:01:38+01:00:Setting oasis
+2024-01-20T20:02:09+01:00:
+2024-01-20T20:02:09+01:00:
+2024-01-20T20:02:09+01:00: Done.
+2024-03-07T20:00:01+01:00:Copy users...
+2024-03-07T20:00:01+01:00:Send out invitations
+2024-03-07T20:00:01+01:00:Starting mailer scriptNothing to do - no users gatherd...No emails sent!No emails sent!
+2024-03-07T20:00:01+01:00:Save database structure
+2024-03-07T20:00:01+01:00:Drop database structure
+2024-03-07T20:00:02+01:00:Rebuild database structure
+2024-03-07T20:00:03+01:00:Create map
+2024-03-07T20:01:27+01:00:
+2024-03-07T20:01:27+01:00:Reset start time and isFinished flag
+2024-03-07T20:01:27+01:00:Restart after finish...
+2024-03-07T20:01:27+01:00:Setting OPENING:1709884800
+2024-03-07T20:01:27+01:00:Current OPENING:1705824000
+2024-03-07T20:01:27+01:00:Current GAME_ROUND:60
+2024-03-07T20:01:27+01:00:Setting multihunter
+2024-03-07T20:01:27+01:00:
+2024-03-07T20:01:27+01:00:Setting oasis
+2024-03-07T20:01:55+01:00:
+2024-03-07T20:01:55+01:00:
+2024-03-07T20:01:55+01:00: Done.
+2024-04-23T20:00:01+02:00:Copy users...
+2024-04-23T20:00:01+02:00:Send out invitations
+2024-04-23T20:00:01+02:00:Starting mailer scriptNothing to do - no users gatherd...No emails sent!No emails sent!
+2024-04-23T20:00:01+02:00:Save database structure
+2024-04-23T20:00:01+02:00:Drop database structure
+2024-04-23T20:00:02+02:00:Rebuild database structure
+2024-04-23T20:00:13+02:00:Create map
+2024-04-23T20:16:30+02:00:
+2024-04-23T20:16:30+02:00:Reset start time and isFinished flag
+2024-04-23T20:16:30+02:00:Restart after finish...
+2024-04-23T20:16:30+02:00:Setting OPENING:1713942000
+2024-04-23T20:16:30+02:00:Current OPENING:1709884800
+2024-04-23T20:16:30+02:00:Current GAME_ROUND:61
+2024-04-23T20:16:30+02:00:Setting multihunter
+2024-04-23T20:16:32+02:00:
+2024-04-23T20:16:32+02:00:Setting oasis
+2024-04-23T20:22:53+02:00:
+2024-04-23T20:22:54+02:00:
+2024-04-23T20:22:54+02:00: Done.
