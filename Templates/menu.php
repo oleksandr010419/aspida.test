@@ -26,36 +26,35 @@ if(count($_GET) && isset($_GET['lang'])){
 
 ?>
 <div id="sidebarBeforeContent" class="sidebar beforeContent">
-    <div id="sidebarBoxMenu" class="sidebarBox   ">
-        <div class="sidebarBoxBaseBox">
-            <div class="baseBox baseBoxTop">
-                <div class="baseBox baseBoxBottom">
-                    <div class="baseBox baseBoxCenter"></div>
+    <div class = "sidebarBoxWrapper">
+        <div id="sidebarBoxMenu" class="sidebarBox   ">
+            <div class="header noHeader"></div>
+            <!-- <div class="sidebarBoxBaseBox">
+                <div class="baseBox baseBoxTop">
+                    <div class="baseBox baseBoxBottom">
+                        <div class="baseBox baseBoxCenter"></div>
+                    </div>
                 </div>
-            </div>
+            </div> -->
+            <!-- <div class="sidebarBoxInnerBox">
+                <div class="innerBox header noHeader"></div> -->
+                <div class="innerBox content">
+                    <ul>
+                        <li class="first">
+                            <a href="http://aspidanetwork.com/" target="_blank"><?=HOME?></a>
+                        </li>
+                        <li <?php   if($_SERVER['PHP_SELF'] == "/login.php") { echo ' class="active"'; } ?>>
+                            <a href="login.php"><?=SIGN6?></a>
+                        </li>
+
+                        <li <?php   if($_SERVER['PHP_SELF'] == "/anmelden.php") { echo ' class="active"'; } ?> >
+                            <a href="anmelden.php" target="_blank"><?=SIGN5?></a>
+                        </li>        
+                    </ul>		
+                </div>
+                <!-- <div class="innerBox footer"></div>
+            </div> -->
         </div>
-        <div class="sidebarBoxInnerBox">
-            <div class="innerBox header noHeader">
-            </div>
-            <div class="innerBox content">
-                <ul>
-                    <li class="first">
-                        <a href="http://aspidanetwork.com/" target="_blank"><?=HOME?></a>
-                    </li>
-
-                    <li <?php   if($_SERVER['PHP_SELF'] == "/login.php") { echo ' class="active"'; } ?>>
-                        <a href="login.php"><?=SIGN6?></a>
-                    </li>
-
-                    <li <?php   if($_SERVER['PHP_SELF'] == "/anmelden.php") { echo ' class="active"'; } ?> >
-                        <a href="anmelden.php" target="_blank"><?=SIGN5?></a>
-                    </li>
-                   
-
-
-                </ul>		</div>
-            <div class="innerBox footer">
-            </div>
-        </div>
-    </div>												<div class="clear"></div>
+    </div>
+    <div class="clear"></div>
 </div>

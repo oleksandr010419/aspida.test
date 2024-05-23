@@ -175,15 +175,15 @@ window.addEvent('domready', function() {
 									<div id="bodyWrapper">
 								<img style="filter:chroma();" src="./activate1_files/x.gif" id="msfilter" alt="">
 
-				<div id="header">
+				<div id="topBar">
 					<a id="logo" href="<?php echo HOMEPAGE; ?>" target="_blank"></a>
 				</div>
 				<div id="center">
 					<?php include('Templates/menu.php');?>
 
-					<div id="contentOuterContainer" class="size1">
-						<div class="contentTitle">
-							<a id="answersButton" class="contentTitleButton" href="http://t4.answers.travian.com/index.php?aid=21#go2answer" target="_blank">&nbsp;</a>						
+					<div id="contentOuterContainer" class=" contentPage">
+						<div class="contentTitle buttonCount0">
+							<a id="answersButton" class="contentTitleButton buttonFramed withIcon rectangle green" href="http://t4.answers.travian.com/index.php?aid=21#go2answer" target="_blank">&nbsp;</a>						
 						</div>
 						<div class="contentContainer">
 							<?php
