@@ -111,10 +111,10 @@ define("INCLUDE_ADMIN",True);
 define("SQL_SERVER", "127.0.0.1");
 
 // ***** Database Username
-define("SQL_USER", "aspidagames");
+define("SQL_USER", "root");
 
 // ***** Database Password
-define("SQL_PASS", "d{QT@[v-k0xF");
+define("SQL_PASS", "");
 
 // ***** Database Name
 define("SQL_DB", "aspidagames_test");
