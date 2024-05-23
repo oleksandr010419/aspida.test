@@ -130,63 +130,66 @@ $countries = $database->query('SELECT IsoCountryCode, Country FROM CountryTbl OR
 <!DOCTYPE html>
 <html>
 <?php include("Templates/html.php");?>
-	
+
 <script type="text/javascript">
 	window.ajaxToken = 'f6ec0129e135fe343e872bc09886b6ac';
 	window._player_uuid = '';
 </script>
 <script type="text/javascript">
-    window.TravianDefaults = {
-        Map: { Size: { width: 801, height: 801, left: -400, right: 400, bottom: -400, top: 400 } }
-    };
+	window.TravianDefaults = {
+		Map: { Size: { width: 801, height: 801, left: -400, right: 400, bottom: -400, top: 400 } }
+	};
 </script>
 <script type="text/javascript">
-Travian.Translation.add(
-{
-	'allgemein.anleitung':	'Instructions',
-	'allgemein.cancel':	'cancel',
-	'allgemein.ok':	'OK',
-	'allgemein.close':	'close',
-	'cropfinder.keine_ergebnisse': 'No search results found.'
-});
-Travian.applicationId = 'T4.4 Game';
-Travian.Game.version = '4.4';
-Travian.Game.worldId = '';
-Travian.Game.speed = 1;
+	Travian.Translation.add(
+		{
+			'allgemein.anleitung': 'Instructions',
+			'allgemein.cancel': 'cancel',
+			'allgemein.ok': 'OK',
+			'allgemein.close': 'close',
+			'cropfinder.keine_ergebnisse': 'No search results found.'
+		});
+	Travian.applicationId = 'T4.4 Game';
+	Travian.Game.version = '4.4';
+	Travian.Game.worldId = '';
+	Travian.Game.speed = 1;
 
-Travian.Templates = {};
+	Travian.Templates = {};
 	Travian.Templates.ButtonTemplate = "<button >\n\t<div class=\"button-container addHoverClick\">\n\t\t<div class=\"button-background\">\n\t\t\t<div class=\"buttonStart\">\n\t\t\t\t<div class=\"buttonEnd\">\n\t\t\t\t\t<div class=\"buttonMiddle\"><\/div>\n\t\t\t\t<\/div>\n\t\t\t<\/div>\n\t\t<\/div>\n\t\t<div class=\"button-content\"><\/div>\n\t<\/div>\n<\/button>\n";
 
 </script>
 
 
 <script type="text/javascript">
-window.addEvent('domready', function() {
+	window.addEvent('domready', function () {
 		Travian.Form.UnloadHelper.message = 'You have made changes. Do you really want to leave this page?';
-	new Travian.TabManager();
-});
+		new Travian.TabManager();
+	});
 </script>
 <script type="text/javascript">
 	Travian.Game.Preferences.initialize([]);
 </script>
-	</head>
-	<body class="v35 webkit chrome activate perspectiveBuildings  ltr">
-						<div id="background">
-									<div id="bodyWrapper">
-								<img style="filter:chroma();" src="./activate1_files/x.gif" id="msfilter" alt="">
+</head>
 
-				<div id="topBar">
-					<a id="logo" href="<?php echo HOMEPAGE; ?>" target="_blank"></a>
-				</div>
-				<div id="center">
-					<?php include('Templates/menu.php');?>
+<body class="activate v35 chrome blink en-US perspectiveBuildings ltr mobileOptimized">
+	<div id="reactDialogWrapper"></div>
+	<div id="background" class>
+		<!-- <div id="bodyWrapper"> -->
+			<!-- <img style="filter:chroma();" src="./activate1_files/x.gif" id="msfilter" alt=""> -->
 
-					<div id="contentOuterContainer" class=" contentPage">
-						<div class="contentTitle buttonCount0">
-							<a id="answersButton" class="contentTitleButton buttonFramed withIcon rectangle green" href="http://t4.answers.travian.com/index.php?aid=21#go2answer" target="_blank">&nbsp;</a>						
-						</div>
-						<div class="contentContainer">
-							<?php
+			<div id="topBar">
+				<a id="logo" href="<?php echo HOMEPAGE; ?>" target="_blank"></a>
+			</div>
+			<div id="center">
+				<?php include('Templates/menu.php');?>
+
+				<div id="contentOuterContainer" class=" contentPage">
+					<div class="contentTitle buttonCount0">
+						<a id="answersButton" class="contentTitleButton buttonFramed withIcon rectangle green"
+							href="http://t4.answers.travian.com/index.php?aid=21#go2answer" target="_blank">&nbsp;</a>
+					</div>
+					<div class="contentContainer">
+						<?php
 
 							switch($page) {
 
@@ -206,47 +209,65 @@ window.addEvent('domready', function() {
 								}
 							}
 							?>
-														
-							
-							<div class="clear">&nbsp;</div>
-						</div>
-						<div class="contentFooter"></div>
-					</div>
 
-					<div id="sidebarAfterContent" class="sidebar afterContent ">
-												<div class="clear"></div>
-					</div>
 
+						<div class="clear">&nbsp;</div>
+					</div>
+					<div class="contentFooter"></div>
+				</div>
+
+				<div id="sidebarAfterContent" class="sidebar afterContent ">
 					<div class="clear"></div>
 				</div>
 
-				<div id="footer" class="size1">
-					<div id="pageLinks">
-						<a href="<?php echo HOMEPAGE; ?>" target="_blank">Homepage</a>
-						
-						<div class="clear"></div>
-					</div>
-					<p class="copyright">©2014 - 2024 Aspida Games</p>
+				<div class="clear"></div>
+			</div>
+
+			<div id="footer" class="size1">
+				<div id="pageLinks">
+					<a href="<?php echo HOMEPAGE; ?>" target="_blank">Homepage</a>
+
+					<div class="clear"></div>
 				</div>
+				<p class="copyright">©2014 - 2024 Aspida Games</p>
+			</div>
 
-							</div>
+		<!-- </div> -->
 
-			
-			<div id="ce"></div>
 
-			
-			
-					</div>
-		<script type="text/javascript">
-			var T4_feature_flags = {"vacationMode":true,"territory":false,"heroitems":true,"allianceBonus":true,"boostedStart":false,"pushingProtectionAlways":false,"tribesEgyptiansAndHuns":false,"hideFoolsArtifacts":false,"welcomeScreen":false};
-		</script>
+		<div id="ce"></div>
 
-		
-		
-		
-			
-<div style="position: absolute; top: 0px; left: 0px; opacity: 0; z-index: 10000;"><div class="tip"><div class="tip-container"><div class="tl"></div><div class="tr"></div><div class="tc"></div><div class="ml"></div><div class="mr"></div><div class="mc"></div><div class="bl"></div><div class="br"></div><div class="bc"></div><div class="tip-contents"><div class="title elementTitle"></div><div class="text elementText"></div></div></div></div></div>
 
-	</body>
+
+	</div>
+	<script type="text/javascript">
+		var T4_feature_flags = { "vacationMode": true, "territory": false, "heroitems": true, "allianceBonus": true, "boostedStart": false, "pushingProtectionAlways": false, "tribesEgyptiansAndHuns": false, "hideFoolsArtifacts": false, "welcomeScreen": false };
+	</script>
+
+
+
+
+
+	<div style="position: absolute; top: 0px; left: 0px; opacity: 0; z-index: 10000;">
+		<div class="tip">
+			<div class="tip-container">
+				<div class="tl"></div>
+				<div class="tr"></div>
+				<div class="tc"></div>
+				<div class="ml"></div>
+				<div class="mr"></div>
+				<div class="mc"></div>
+				<div class="bl"></div>
+				<div class="br"></div>
+				<div class="bc"></div>
+				<div class="tip-contents">
+					<div class="title elementTitle"></div>
+					<div class="text elementText"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</body>
 
 </html>

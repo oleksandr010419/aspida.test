@@ -3,13 +3,14 @@
     <meta charset="UTF-8">
     <link rel="shortcut icon" href="favicon.ico"/>
     <meta name="content-language" content="<?php echo isset($_GET['lang'])?$_GET['lang']:"en";?>" />
-        <link href="<?php echo GP_LOCATE;?>lang/en/compact.css" rel="stylesheet" type="text/css" />
+    <link href="//cdn.legends.travian.com/gpack/2473.3/css_ltr/imports_compressed.css" rel="stylesheet" type="text/css">
+        <!-- <link href="<?php echo GP_LOCATE;?>lang/en/compact.css" rel="stylesheet" type="text/css" />
     <?php if($_SESSION['lowres']==1 || isset($_GET['lowres'])){ ?>
         <link href="<?php echo GP_LOCATE;?>en/compact-lowres.css" rel="stylesheet" type="text/css" />
     <?php } ?>
     <link href="<?php echo GP_LOCATE;?>lang/en/lang.css" rel="stylesheet" type="text/css" />
     <link href="<?php echo GP_LOCATE;?>lang/en/modal_plus.css" rel="stylesheet" type="text/css" />
-    <link href="<?php echo GP_LOCATE;?>lang/en/custom.css" rel="stylesheet" type="text/css" />
+    <link href="<?php echo GP_LOCATE;?>lang/en/custom.css" rel="stylesheet" type="text/css" /> -->
     <?php /*<link href="/gpack/delusion_4.5/css/compact1.css" rel="stylesheet" type="text/css" />
     <?php /*<link href="/gpack/delusion_4.4/lang/en/modal_plus.css" rel="stylesheet" type="text/css" />*/?>
     <script src="<?php echo GP_LOCATE;?>lang/en/js/jquery.js" type="text/javascript"></script>
@@ -23,7 +24,9 @@
         </script>
         <script type="text/javascript" src="<?php echo GP_LOCATE;?>lang/en/js/crypt-lowres.js?v=<?php echo OPENING;?>"></script>
     <?php }else{ ?>
-        <script type="text/javascript" src="<?php echo GP_LOCATE;?>lang/en/js/crypt.js?v=<?php echo OPENING;?>"></script>
+        
+        <!-- <script type="text/javascript" src="<?php echo GP_LOCATE;?>lang/en/js/crypt.js?v=<?php echo OPENING;?>"></script> -->
+        <script type="text/javascript" src="https://cdn.legends.travian.com/gpack/2473.3/js/crypt.js?v=<?php echo OPENING;?>"></script>
     <?php }?>
     <script type="text/javascript">
         Travian.Translation.add(

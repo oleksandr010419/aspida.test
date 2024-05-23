@@ -21,7 +21,7 @@ define("COSTCP",20);
 define("EXTRA_MENU", false);
 define("HOWCP",1000);
 define("AUCTIONTIME",6400);
-define("GP_LOCATE", "gpack/delusion_4.6/");
+define("GP_LOCATE", "gpack/delusion_4.5/");
 define("OPENING", 1713942000);
 define("REF_POP",500);
 define("REF_GOLD",50);
