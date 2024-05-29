@@ -48,9 +48,8 @@ if(!isset($_COOKIE['PW'])) {
         <img id="staticElements" src="img/x.gif" alt="" />
         <div id="bodyWrapper">
             <div id="topBar">
-                <a id="logo" href="https://www.travian.com/international" target="_blank" previewlistener="true">
-                    <img src="https://test.aspidanetwork.com/gpack/delusion_4.5/img/layout/logoSmall.png" width="300px">
-                </a>
+                <!-- <a id="logo" href="https://www.travian.com/international" target="_blank" previewlistener="true">
+                </a> -->
                 <div id="header" class="referAFriend">
                     <!-- <input type="checkbox" id="mobileMenuState">
     
@@ -134,7 +133,9 @@ if(!isset($_COOKIE['PW'])) {
                     </nav> -->
                     <div id="header">
                         <div id="mtop">
-                            <a id="logo" href="<?php echo HOMEPAGE; ?>" target="_blank" title="<?php echo SERVER_NAME; ?>"></a>
+                            <a id="logo" href="<?php echo HOMEPAGE; ?>" target="_blank" title="<?php echo SERVER_NAME; ?>">
+                    <img src="https://test.aspidanetwork.com/gpack/delusion_4.5/img/layout/logoSmall.png" width="300px">
+                        </a>
                             <div class="clear"></div>
                         </div>
                     </div>

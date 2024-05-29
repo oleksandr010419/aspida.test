@@ -30,9 +30,9 @@ class mail_class {
 		$headers .= "Content-type: text/html; charset=utf-8\r\n";  // Add this line
 		$result = @mail($this->mail_to, $this->mail_subject, $this->msg, $headers);
         
-        if (!$result) {
-            die('Unable to send mail');
-        }
+        // if (!$result) {
+        //     die('Unable to send mail');
+        // }
 
         return true;
     }

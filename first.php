@@ -171,7 +171,7 @@ $countries = $database->query('SELECT IsoCountryCode, Country FROM CountryTbl OR
 </script>
 </head>
 
-<body class="activate v35 chrome blink en-US perspectiveBuildings ltr mobileOptimized">
+<body class="activate v35 chrome blink en-US perspectiveBuildings ltr mobileOptimized" data-theme="default">
 	<div id="reactDialogWrapper"></div>
 	<div id="background" class>
 		<!-- <div id="bodyWrapper"> -->

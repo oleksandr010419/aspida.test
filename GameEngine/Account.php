@@ -58,14 +58,14 @@ class Account {
 			else {
 				//verify captcha
 			}
-			$email_ban = json_decode(file_get_contents('https://www.aspidanetwork.com/'.'ban_system/check_email_ban.php?email='.urlencode($_POST['email']).'&ip='.$_SERVER['REMOTE_ADDR']),true);
-			if(!empty($email_ban) && !empty($email_ban) && isset($email_ban['result']) && $email_ban['result']){
-				$form->addError("email", "Email is blacklisted!");
-			}
-			$domain_ban = json_decode(file_get_contents('https://www.aspidanetwork.com/'.'ban_system/check_email_domain.php?action=check&email='.urlencode($_POST['email'])),true);
-			if(!empty($domain_ban) && !empty($domain_ban) && isset($domain_ban['result']) && $domain_ban['result']){
-				$form->addError("email", "Email is blacklisted!");
-			}
+			// $email_ban = json_decode(file_get_contents('https://www.aspidanetwork.com/'.'ban_system/check_email_ban.php?email='.urlencode($_POST['email']).'&ip='.$_SERVER['REMOTE_ADDR']),true);
+			// if(!empty($email_ban) && !empty($email_ban) && isset($email_ban['result']) && $email_ban['result']){
+			// 	$form->addError("email", "Email is blacklisted!");
+			// }
+			// $domain_ban = json_decode(file_get_contents('https://www.aspidanetwork.com/'.'ban_system/check_email_domain.php?action=check&email='.urlencode($_POST['email'])),true);
+			// if(!empty($domain_ban) && !empty($domain_ban) && isset($domain_ban['result']) && $domain_ban['result']){
+			// 	$form->addError("email", "Email is blacklisted!");
+			// }
         }
         if (!isset($_POST['pw']) || trim($_POST['pw']) == "") {
             $form->addError("pw", PW_EMPTY);
