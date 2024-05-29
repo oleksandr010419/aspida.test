@@ -98,6 +98,8 @@ class Session {
     }
 
     public function Login($user,$lowres) {
+
+        // var_dump("session login here...");
         global $generator,$database;		
 
         $_SESSION['username'] = $user;

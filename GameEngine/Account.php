@@ -186,6 +186,7 @@ class Account {
         $time = time();
         $starttime = OPENING;
         if ($starttime < $time) {
+            // var_dump($_POST);
             $sitlogin = $database->sitterLogin($_POST['user'], $_POST['pw']);
             if (!$sitlogin[0]) {
                 $ownlogin = $database->login($_POST['user'], $_POST['pw']);		
@@ -193,6 +194,7 @@ class Account {
             } else {
                 $ownlogin = false;
             }
+            // var_dump($sitlogin, $ownlogin);
             if (!isset($_POST['user']) || $_POST['user'] == "") {
                 $form->addError("user", LOGIN_USR_EMPTY);
             } else if (!$database->checkExist($_POST['user'], 0)) {
@@ -200,7 +202,7 @@ class Account {
             }
             if (!isset($_POST['pw']) || $_POST['pw'] == "") {
                 $form->addError("pw", LOGIN_PASS_EMPTY);
-            } else if (!$sitlogin && !$ownlogin) {
+            } else if (!$sitlogin[0] && !$ownlogin) {
                 $form->addError("pw", LOGIN_PW_ERROR);
             }
             if ($form->returnErrors() > 0) {

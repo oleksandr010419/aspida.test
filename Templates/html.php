@@ -25,8 +25,8 @@
         <script type="text/javascript" src="<?php echo GP_LOCATE;?>lang/en/js/crypt-lowres.js?v=<?php echo OPENING;?>"></script>
     <?php }else{ ?>
         
-        <!-- <script type="text/javascript" src="<?php echo GP_LOCATE;?>lang/en/js/crypt.js?v=<?php echo OPENING;?>"></script> -->
-        <script type="text/javascript" src="https://cdn.legends.travian.com/gpack/2473.3/js/crypt.js?v=<?php echo OPENING;?>"></script>
+        <script type="text/javascript" src="<?php echo GP_LOCATE;?>lang/en/js/crypt.js?v=<?php echo OPENING;?>"></script>
+        <!-- <script type="text/javascript" src="https://cdn.legends.travian.com/gpack/2473.3/js/crypt.js?v=<?php echo OPENING;?>"></script> -->
     <?php }?>
     <script type="text/javascript">
         Travian.Translation.add(
