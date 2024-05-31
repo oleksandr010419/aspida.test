@@ -1,4 +1,5 @@
 <div id="content" class="activate">
+	<?php $tribe=isset($_GET['tribe']) ? $_GET['tribe'] : 3?>
 	<h1 class="titleInHeader">Select your tribe</h1>
 	<div class="mobileCover"></div>
 	<!-- <h1 class="titleInHeader">Select your tribe</h1> -->
@@ -39,7 +40,7 @@
 
 				<div class="selection selectTribe">
 					<!-- <div class="ornamentStart"></div> -->
-					<input type="radio" name="vid" value="3" id="tribe_3" checked="checked" class="option0">
+					<input type="radio" name="vid" value="3" id="tribe_3" <?php echo ($tribe==3) ? 'checked=checked' : ''?> class="option0">
 					<label class="tribe3" for="tribe_3"></label>
 					<!-- <div class="tribeDescription" data-text="Recommended for new players">
 						<h2>Gauls</h2>
@@ -51,7 +52,7 @@
 						</ul>
 					</div> -->
 
-					<input type="radio" name="vid" value="1" id="tribe_1" class="option1">
+					<input type="radio" name="vid" value="1" id="tribe_1" <?php echo ($tribe==1) ? 'checked=checked' : ''?> class="option1">
 					<label class="tribe1" for="tribe_1"></label>
 					<!-- <div class="tribeDescription">
 						<h2>Romans</h2>
@@ -63,7 +64,7 @@
 						</ul>
 					</div> -->
 
-					<input type="radio" name="vid" value="2" id="tribe_2" class="option2">
+					<input type="radio" name="vid" value="2" id="tribe_2" <?php echo ($tribe==2) ? 'checked=checked' : ''?> class="option2">
 					<label class="tribe2" for="tribe_2"></label>
 					<!-- <div class="tribeDescription">
 						<h2>Teutons</h2>
@@ -75,7 +76,7 @@
 						</ul>
 					</div> -->
 
-					<input type="radio" name="vid" value="6" id="tribe_6" class="option3">
+					<input type="radio" name="vid" value="6" id="tribe_6" <?php echo ($tribe==6) ? 'checked=checked' : ''?> class="option3">
 					<label class="tribe6" for="tribe_6"></label>
 					<!-- <div class="tribeDescription">
 						<h2>Egyptians</h2>
@@ -87,7 +88,7 @@
 						</ul>
 					</div> -->
 
-					<input type="radio" name="vid" value="7" id="tribe_7" class="option4">
+					<input type="radio" name="vid" value="7" id="tribe_7" <?php echo ($tribe==7) ? 'checked=checked' : ''?> class="option4">
 					<label class="tribe7" for="tribe_7"></label>
 					<!-- <div class="tribeDescription">
 						<h2>Huns</h2>
@@ -99,7 +100,7 @@
 						</ul>
 					</div> -->
 
-					<input type="radio" name="vid" value="8" id="tribe_8" class="option5">
+					<input type="radio" name="vid" value="8" id="tribe_8" <?php echo ($tribe==8) ? 'checked=checked' : ''?> class="option5">
 					<label class="tribe8" for="tribe_8"></label>
 					<!-- <div class="tribeDescription">
 						<h2>Spartans</h2>

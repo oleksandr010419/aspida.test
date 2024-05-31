@@ -60,44 +60,44 @@
 
                     <div class="confirmTribe tribe1 <?php echo ($tribe==1) ? 'selected' : ''?>">
                         <h2>Romans</h2>
-                        <a class="change backToTribe" href="first.php?step=1">Change</a>
+                        <a class="change backToTribe" href="first.php?step=1&tribe=1">Change</a>
                     </div>
                     <div class="confirmTribe tribe2 <?php echo ($tribe==2) ? 'selected' : ''?>">
                         <h2>Teutons</h2>
-                        <a class="change backToTribe" href="first.php?step=1">Change</a>
+                        <a class="change backToTribe" href="first.php?step=1&tribe=2">Change</a>
                     </div>
                     <div class="confirmTribe tribe3 <?php echo ($tribe==3) ? 'selected' : ''?>">
                         <h2>Gauls</h2>
-                        <a class="change backToTribe" href="first.php?step=1">Change</a>
+                        <a class="change backToTribe" href="first.php?step=1&tribe=3">Change</a>
                     </div>
                     <div class="confirmTribe tribe6 <?php echo ($tribe==6) ? 'selected' : ''?>">
                         <h2>Egyptians</h2>
-                        <a class="change backToTribe" href="first.php?step=1">Change</a>
+                        <a class="change backToTribe" href="first.php?step=1&tribe=6">Change</a>
                     </div>
                     <div class="confirmTribe tribe7 <?php echo ($tribe==7) ? 'selected' : ''?>">
                         <h2>Huns</h2>
-                        <a class="change backToTribe" href="first.php?step=1">Change</a>
+                        <a class="change backToTribe" href="first.php?step=1&tribe=7">Change</a>
                     </div>
                     <div class="confirmTribe tribe8 <?php echo ($tribe==8) ? 'selected' : ''?>">
                         <h2>Spartans</h2>
-                        <a class="change backToTribe" href="first.php?step=1">Change</a>
+                        <a class="change backToTribe" href="first.php?step=1&tribe=8">Change</a>
                     </div>
 
                     <div class="confirmSector nw <?php echo ($location==4) ? 'selected' : ''?>">
                         <h2>North - West</h2>
-                        <a class="change backToSector" href="first.php?step=2">Change</a>
+                        <a class="change backToSector" href="first.php?step=2&location=4">Change</a>
                     </div>
                     <div class="confirmSector no <?php echo ($location==3) ? 'selected' : ''?>">
                         <h2>North - East</h2>
-                        <a class="change backToSector" href="first.php?step=2">Change</a>
+                        <a class="change backToSector" href="first.php?step=2&location=3">Change</a>
                     </div>
                     <div class="confirmSector sw <?php echo ($location==1) ? 'selected' : ''?>">
                         <h2>South - West</h2>
-                        <a class="change backToSector" href="first.php?step=2">Change</a>
+                        <a class="change backToSector" href="first.php?step=2&location=1">Change</a>
                     </div>
                     <div class="confirmSector so <?php echo ($location==2) ? 'selected' : ''?>">
                         <h2>South - East</h2>
-                        <a class="change backToSector" href="first.php?step=2">Change</a>
+                        <a class="change backToSector" href="first.php?step=2&location=2">Change</a>
                     </div>
             </div>
 

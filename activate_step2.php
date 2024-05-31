@@ -1,4 +1,5 @@
 <div id="content" class="activate">
+    <?php $location= isset($_GET['location']) ? $_GET['location'] : 1;?>
     <h1 class="titleInHeader">Select your starting position</h1>
     <!-- <a id="backButton" class="contentTitleButton" href="/first.php?step=1"></a> -->
     <div class="activationWrapper activateGameWorldAccount selectSector">
@@ -14,16 +15,16 @@
 
                     <div id="map" class="">
 
-                        <input type="radio" name="sector" value="nw" id="sector_nw">
+                        <input type="radio" name="sector" value="nw" id="sector_nw" <?php echo ($location==4) ? 'checked=checked' : ''?>>
                         <label for="sector_nw">North - West</label>
 
-                        <input type="radio" name="sector" value="ne" id="sector_no">
+                        <input type="radio" name="sector" value="ne" id="sector_no" <?php echo ($location==3) ? 'checked=checked' : ''?>>
                         <label for="sector_no">North - East</label>
 
-                        <input type="radio" name="sector" value="sw" id="sector_sw" checked="checked">
+                        <input type="radio" name="sector" value="sw" id="sector_sw" <?php echo ($location==1) ? 'checked=checked' : ''?>>
                         <label for="sector_sw" data-text="RECOMMENDED">South - West</label>
 
-                        <input type="radio" name="sector" value="se" id="sector_so">
+                        <input type="radio" name="sector" value="se" id="sector_so" <?php echo ($location==2) ? 'checked=checked' : ''?>>
                         <label for="sector_so">South - East</label>
 
                     </div>
