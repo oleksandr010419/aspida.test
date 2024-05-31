@@ -13,7 +13,25 @@
     <link href="<?php echo GP_LOCATE;?>lang/en/custom.css" rel="stylesheet" type="text/css" /> -->
     <?php /*<link href="/gpack/delusion_4.5/css/compact1.css" rel="stylesheet" type="text/css" />
     <?php /*<link href="/gpack/delusion_4.4/lang/en/modal_plus.css" rel="stylesheet" type="text/css" />*/?>
-    <script src="<?php echo GP_LOCATE;?>lang/en/js/jquery.js" type="text/javascript"></script>
+    <!-- <script src="<?php echo GP_LOCATE;?>lang/en/js/jquery.js" type="text/javascript"></script> -->
+    <script type="application/javascript" src="//cdn.legends.travian.com/gpack/2473.4/js/jquery-3.5.1.min.js"></script>
+    <script type="application/javascript" src="//cdn.legends.travian.com/gpack/2473.4/js/jquery.md5.min.js"></script>
+    <script type="application/javascript" src="//cdn.legends.travian.com/gpack/2473.4/js/d3/d3.min.js"></script>
+    <script type="application/javascript" src="//cdn.legends.travian.com/gpack/2473.4/js/d3/d3pie.min.js"></script>
+    <script type="application/javascript" src="//cdn.legends.travian.com/gpack/2473.4/js/ChartJs/Chart.min.js"></script>
+    <script type="application/javascript" src="//cdn.legends.travian.com/gpack/2473.4/js/gsap/TweenMax.min.js"></script>
+    <script type="application/javascript" src="//cdn.legends.travian.com/gpack/2473.4/js/gsap/plugins/MorphSVGPlugin.min.js"></script>
+    <script type="application/javascript" src="//cdn.legends.travian.com/gpack/2473.4/js/simplebar.min.js"></script>
+    <script type="application/javascript" src="//cdn.legends.travian.com/gpack/2473.4/js/popper.min.js"></script>
+    <script type="application/javascript" src="//cdn.legends.travian.com/gpack/2473.4/js/tippy.min.js"></script>
+    <script defer="" type="application/javascript" src="//cdn.legends.travian.com/gpack/2473.4/js/bundle/vendor.js"></script>
+    <script defer="" type="application/javascript" src="//cdn.legends.travian.com/gpack/2473.4/js/bundle/runtime.js"></script>
+    <script defer="" type="application/javascript" src="//cdn.legends.travian.com/gpack/2473.4/js/bundle/main.js"></script>
+    <script type="application/javascript" src="//cdn.legends.travian.com/gpack/2473.4/js/PixiJS/pixi.min.js"></script>
+    <script type="application/javascript" src="//cdn.legends.travian.com/gpack/2473.4/js/deepmerge.js"></script>
+    <script type="application/javascript">window.Travian = {};</script>
+    <script type="application/javascript" src="/js/Variables.js?2473.4"></script>
+    <script type="application/javascript" src="/js/en-US/Strings.js?2473.4"></script>
     <script type="text/javascript">var j$ = $.noConflict();</script>
     <?php if($_SESSION['lowres']==1 || isset($_GET['lowres'])){ ?>
         <script type="text/javascript">
@@ -22,11 +40,11 @@
             false || {}
         );
         </script>
-        <script type="text/javascript" src="<?php echo GP_LOCATE;?>lang/en/js/crypt-lowres.js?v=<?php echo OPENING;?>"></script>
+        <!-- <script type="text/javascript" src="<?php echo GP_LOCATE;?>lang/en/js/crypt-lowres.js?v=<?php echo OPENING;?>"></script> -->
     <?php }else{ ?>
         
         <script type="text/javascript" src="<?php echo GP_LOCATE;?>lang/en/js/crypt.js?v=<?php echo OPENING;?>"></script>
-        <!-- <script type="text/javascript" src="https://cdn.legends.travian.com/gpack/2473.3/js/crypt.js?v=<?php echo OPENING;?>"></script> -->
+        <!-- <script type="text/javascript" src="//cdn.legends.travian.com/gpack/2473.3/js/crypt.js?v=<?php echo OPENING;?>"></script> -->
     <?php }?>
     <script type="text/javascript">
         Travian.Translation.add(

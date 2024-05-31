@@ -1,25 +1,11 @@
 <div id="content" class="activate">
-	<div class="dynamicTitles">
-		<div class="selectTribe active">
-			<h1 class="titleInHeader">Select your tribe</h1>
-		</div>
-
-		<div class="selectSector">
-			<h1 class="titleInHeader selectSector">Select Starting Position</h1>
-		</div>
-
-		<div class="confirm">
-			<h1 class="titleInHeader confirm">Confirm your selection</h1>
-		</div>
-	</div>
+	<h1 class="titleInHeader">Select your tribe</h1>
 	<div class="mobileCover"></div>
 	<!-- <h1 class="titleInHeader">Select your tribe</h1> -->
 
 	<div class="activationWrapper activateGameWorldAccount selectTribe">
 
-		<form method="post" action="first.php">
-
-			<div class="steps">
+		<form method="post" action="first.php" id="activate">
 				<div class="stepDescription selectTribe">
 					Great empires begin with important decisions! Are you an attacker who loves competition? Or is your
 					time
@@ -189,7 +175,7 @@
 							</ul>
 						</div>
 					</div>
-					<div id="selectionIndicator"></div>
+					<!-- <div id="selectionIndicator" style="left: 92px;"></div> -->
 					
 				</div>
 				<div class="buttonWrapper selectTribe">
@@ -207,7 +193,7 @@
 						</div>
 					</button>
 					<script type="text/javascript" id="button599547e104f2b_script">
-						window.addEvent('domready', function () {
+						jQuery(document).ready(function () {
 							if ($('button599547e104f2b')) {
 								$('button599547e104f2b').addEvent('click', function () {
 									window.fireEvent('buttonClicked', [this, { "type": "submit", "value": "Confirm", "name": "", "id": "button599547e104f2b", "class": "orange ", "title": "", "confirm": "", "onclick": "" }]);
@@ -217,7 +203,6 @@
 					</script>
 	
 				</div>
-			</div>
 
 
 		</form>
@@ -225,7 +210,7 @@
 	</div>
 
 	<script type="text/javascript">
-		window.addEvent('domready', function () {
+		jQuery(document).ready(function () {
 			new Travian.Game.Activation();
 		});
 	</script>

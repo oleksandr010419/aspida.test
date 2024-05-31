@@ -6,7 +6,7 @@ include("GameEngine/Account.php");
 <html>
 <?php include("Templates/html.php");?>
 
-<body class="v35 <?=$database->bodyClass($_SERVER['HTTP_USER_AGENT']); ?> logout perspectiveBuildings">
+<body class="v35 <?=$database->bodyClass($_SERVER['HTTP_USER_AGENT']); ?> logout perspectiveBuildings" data-theme="default">
 <div id="background">
     <img id="staticElements" src="img/x.gif" alt=""/>
     <div id="bodyWrapper">
@@ -19,7 +19,7 @@ include("GameEngine/Account.php");
         </div>
         <div id="center">
             <?php include('Templates/menu.php');?>
-            <div id="contentOuterContainer" class="size1">
+            <div id="contentOuterContainer" class="size1 contentPage">
                 <div class="contentTitle">&nbsp;</div>
                 <div class="contentContainer">
                     <div id="content" class="logout">

@@ -161,7 +161,7 @@ $countries = $database->query('SELECT IsoCountryCode, Country FROM CountryTbl OR
 
 
 <script type="text/javascript">
-	window.addEvent('domready', function () {
+	jQuery(document).ready(function () {
 		Travian.Form.UnloadHelper.message = 'You have made changes. Do you really want to leave this page?';
 		new Travian.TabManager();
 	});
