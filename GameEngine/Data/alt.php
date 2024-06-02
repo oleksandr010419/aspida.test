@@ -250,407 +250,489 @@
 		
         
 	}elseif($btype==4){
-    
-		if($type==16){
-        	$name = ITEM45;
-        	$title = IEFF45;
-            $item = 16;
-            $effect = 500;
-		}elseif($type==17){
-        	$name = ITEM46;
-        	$title = IEFF46;
-            $item = 17;
-            $effect = 1000;
-		}elseif($type==18){
-        	$name = ITEM47;
-        	$title = IEFF47;
-            $item = 18;
-            $effect = 1500;
-		}
-        if($type==19){
-        	$name = ITEM48;
-        	$title = IEFF48;
-            $item = 19;
-            $effect = 500;
-        }elseif($type==20){
-        	$name = ITEM49;
-        	$title = IEFF49;
-            $item = 20;
-            $effect = 1000;
-        }elseif($type==21){
-        	$name = ITEM50;
-        	$title = IEFF50;
-            $item = 21;
-            $effect = 1500;
-        }
-        if($type==22){
-        	$name = ITEM51;
-			$title = IEFF51;
-            $item = 22;
-            $effect = 500;
-		}elseif($type==23){
-        	$name = ITEM52;
-			$title = IEFF52;
-            $item = 23;
-            $effect = 1000;
-		}elseif($type==24){
-        	$name = ITEM53;
-			$title = IEFF53;
-            $item = 24;
-            $effect = 1500;
-		}
-        if($type==25){
-        	$name = ITEM54;
-			$title = IEFF54;
-            $item = 25;
-            $effect = 500;
-		}elseif($type==26){
-        	$name = ITEM55;
-			$title = IEFF55;
-            $item = 26;
-            $effect = 1000;
-		}elseif($type==27){
-        	$name = ITEM56;
-			$title = IEFF56;
-            $item = 27;
-            $effect = 1500;
-		}
-        if($type==28){
-        	$name = ITEM57;
-        	$title = IEFF57;
-            $item = 28;
-            $effect = 500;
-        }elseif($type==29){
-        	$name = ITEM58;
-        	$title = IEFF58;
-            $item = 29;
-            $effect = 1000;
-        }elseif($type==30){
-        	$name = ITEM59;
-        	$title = IEFF59;
-            $item = 30;
-            $effect = 1500;
-        }
-        if($type==31){
-        	$name = ITEM60;
-			$title = IEFF60;
-            $item = 31;
-            $effect = 500;
-		}elseif($type==32){
-        	$name = ITEM61;
-			$title = IEFF61;
-            $item = 32;
-            $effect = 1000;
-		}elseif($type==33){
-        	$name = ITEM62;
-			$title = IEFF62;
-            $item = 33;
-            $effect = 1500;
-		}
-        if($type==34){
-        	$name = ITEM63;
-        	$title = IEFF63;
-            $item = 34;
-            $effect = 500;
-        }elseif($type==35){
-        	$name = ITEM64;
-        	$title = IEFF64;
-            $item = 35;
-            $effect = 1000;
-        }elseif($type==36){
-        	$name = ITEM65;
-        	$title = IEFF65;
-            $item = 36;
-            $effect = 1500;
-        }
-        if($type==37){
-        	$name = ITEM66;
-			$title = IEFF66;
-            $item = 37;
-            $effect = 500;
-		}elseif($type==38){
-        	$name = ITEM67;
-			$title = IEFF67;
-            $item = 38;
-            $effect = 1000;
-		}elseif($type==39){
-        	$name = ITEM68;
-			$title = IEFF68;
-            $item = 39;
-            $effect = 1500;
-		}
-        if($type==40){
-        	$name = ITEM69;
-			$title = IEFF69;
-            $item = 40;
-            $effect = 500;
-		}elseif($type==41){
-        	$name = ITEM70;
-			$title = IEFF70;
-            $item = 41;
-            $effect = 1000;
-		}elseif($type==42){
-        	$name = ITEM71;
-			$title = IEFF71;
-            $item = 42;
-            $effect = 1500;
-		}
-        if($type==43){
-        	$name = ITEM72;
-        	$title = IEFF72;
-            $item = 43;
-            $effect = 500;
-        }elseif($type==44){
-        	$name = ITEM73;
-        	$title = IEFF73;
-            $item = 44;
-            $effect = 1000;
-        }elseif($type==45){
-        	$name = ITEM74;
-        	$title = IEFF74;
-            $item = 45;
-            $effect = 1500;
-        }
-        if($type==46){
-        	$name = ITEM75;
-			$title = IEFF75;
-            $item = 46;
-            $effect = 500;
-		}elseif($type==47){
-        	$name = ITEM76;
-			$title = IEFF76;
-            $item = 47;
-            $effect = 1000;
-		}elseif($type==48){
-        	$name = ITEM77;
-			$title = IEFF77;
-            $item = 48;
-            $effect = 1500;
-		}
-        if($type==49){
-        	$name = ITEM78;
-        	$title = IEFF78;
-            $item = 49;
-            $effect = 500;
-        }elseif($type==50){
-        	$name = ITEM79;
-        	$title = IEFF79;
-            $item = 50;
-            $effect = 1000;
-        }elseif($type==51){
-        	$name = ITEM80;
-        	$title = IEFF80;
-            $item = 51;
-            $effect = 1500;
-        }
-        if($type==52){
-        	$name = ITEM81;
-			$title = IEFF81;
-            $item = 52;
-            $effect = 500;
-		}elseif($type==53){
-        	$name = ITEM82;
-			$title = IEFF82;
-            $item = 53;
-            $effect = 1000;
-		}elseif($type==54){
-        	$name = ITEM83;
-			$title = IEFF83;
-            $item = 54;
-            $effect = 1500;
-		}
-        if($type==55){
-        	$name = ITEM84;
-			$title = IEFF84;
-            $item = 55;
-            $effect = 500;
-		}elseif($type==56){
-        	$name = ITEM85;
-			$title = IEFF85;
-            $item = 56;
-            $effect = 1000;
-		}elseif($type==57){
-        	$name = ITEM86;
-			$title = IEFF86;
-            $item = 57;
-            $effect = 1500;
-		}
-        if($type==58){
-        	$name = ITEM87;
-        	$title = IEFF87;
-            $item = 58;
-            $effect = 500;
-        }elseif($type==59){
-        	$name = ITEM88;
-        	$title = IEFF88;
-            $item = 59;
-            $effect = 1000;
-        }elseif($type==60){
-        	$name = ITEM89;
-        	$title = IEFF89;
-            $item = 60;
-            $effect = 1500;
-        }
-        if($type==115){
-        	$name = ITEM115;
-        	$title = IEFF115;
-            $item = 115;
-            $effect = 500;
-        }elseif($type==116){
-        	$name = ITEM116;
-        	$title = IEFF116;
-            $item = 116;
-            $effect = 1000;
-        }elseif($type==117){
-        	$name = ITEM117;
-        	$title = IEFF117;
-            $item = 117;
-            $effect = 1500;
-        }
-        if($type==118){
-        	$name = ITEM118;
-        	$title = IEFF118;
-            $item = 118;
-            $effect = 500;
-        }elseif($type==119){
-        	$name = ITEM119;
-        	$title = IEFF119;
-            $item = 119;
-            $effect = 1000;
-        }elseif($type==120){
-        	$name = ITEM120;
-        	$title = IEFF120;
-            $item = 120;
-            $effect = 1500;
-        }
-        if($type==121){
-        	$name = ITEM121;
-        	$title = IEFF121;
-            $item = 121;
-            $effect = 500;
-        }elseif($type==122){
-        	$name = ITEM122;
-        	$title = IEFF122;
-            $item = 122;
-            $effect = 1000;
-        }elseif($type==123){
-        	$name = ITEM123;
-        	$title = IEFF123;
-            $item = 123;
-            $effect = 1500;
-        }
-        if($type==124){
-        	$name = ITEM124;
-        	$title = IEFF124;
-            $item = 124;
-            $effect = 500;
-        }elseif($type==125){
-        	$name = ITEM125;
-        	$title = IEFF125;
-            $item = 125;
-            $effect = 1000;
-        }elseif($type==126){
-        	$name = ITEM126;
-        	$title = IEFF126;
-            $item = 126;
-            $effect = 1500;
-        }
-        if($type==127){
-        	$name = ITEM127;
-        	$title = IEFF127;
-            $item = 127;
-            $effect = 500;
-        }elseif($type==128){
-        	$name = ITEM128;
-        	$title = IEFF128;
-            $item = 128;
-            $effect = 1000;
-        }elseif($type==129){
-        	$name = ITEM129;
-        	$title = IEFF129;
-            $item = 129;
-            $effect = 1500;
-        }
-        if($type==130){
-        	$name = ITEM130;
-        	$title = IEFF130;
-            $item = 130;
-            $effect = 500;
-        }elseif($type==131){
-        	$name = ITEM131;
-        	$title = IEFF131;
-            $item = 131;
-            $effect = 1000;
-        }elseif($type==132){
-        	$name = ITEM132;
-        	$title = IEFF132;
-            $item = 132;
-            $effect = 1500;
-        }
-        if($type==133){
-        	$name = ITEM133;
-        	$title = IEFF133;
-            $item = 133;
-            $effect = 500;
-        }elseif($type==134){
-        	$name = ITEM134;
-        	$title = IEFF134;
-            $item = 134;
-            $effect = 1000;
-        }elseif($type==135){
-        	$name = ITEM135;
-        	$title = IEFF135;
-            $item = 135;
-            $effect = 1500;
-        }
-        if($type==136){
-        	$name = ITEM136;
-        	$title = IEFF136;
-            $item = 136;
-            $effect = 500;
-        }elseif($type==137){
-        	$name = ITEM137;
-        	$title = IEFF137;
-            $item = 137;
-            $effect = 1000;
-        }elseif($type==138){
-        	$name = ITEM138;
-        	$title = IEFF138;
-            $item = 138;
-            $effect = 1500;
-        }
-        if($type==139){
-        	$name = ITEM139;
-        	$title = IEFF139;
-            $item = 139;
-            $effect = 500;
-        }elseif($type==140){
-        	$name = ITEM140;
-        	$title = IEFF140;
-            $item = 140;
-            $effect = 1000;
-        }elseif($type==141){
-        	$name = ITEM141;
-        	$title = IEFF141;
-            $item = 141;
-            $effect = 1500;
-        }
-        if($type==142){
-        	$name = ITEM142;
-        	$title = IEFF142;
-            $item = 142;
-            $effect = 500;
-        }elseif($type==143){
-        	$name = ITEM143;
-        	$title = IEFF143;
-            $item = 143;
-            $effect = 1000;
-        }elseif($type==144){
-        	$name = ITEM144;
-        	$title = IEFF144;
-            $item = 144;
-            $effect = 1500;
-        }
+
+    if($type==16){
+        $name = ITEM45;
+        $title = IEFF45;
+        $item = 16;
+        $effect = 250;
+    }elseif($type==17){
+        $name = ITEM46;
+        $title = IEFF46;
+        $item = 17;
+        $effect = 1000;
+    }elseif($type==18){
+        $name = ITEM47;
+        $title = IEFF47;
+        $item = 18;
+        $effect = 4000;
+    }
+    if($type==19){
+        $name = ITEM48;
+        $title = IEFF48;
+        $item = 19;
+        $effect = 250;
+    }elseif($type==20){
+        $name = ITEM49;
+        $title = IEFF49;
+        $item = 20;
+        $effect = 1000;
+    }elseif($type==21){
+        $name = ITEM50;
+        $title = IEFF50;
+        $item = 21;
+        $effect = 4000;
+    }
+    if($type==22){
+        $name = ITEM51;
+        $title = IEFF51;
+        $item = 22;
+        $effect = 250;
+    }elseif($type==23){
+        $name = ITEM52;
+        $title = IEFF52;
+        $item = 23;
+        $effect = 1000;
+    }elseif($type==24){
+        $name = ITEM53;
+        $title = IEFF53;
+        $item = 24;
+        $effect = 4000;
+    }
+    if($type==25){
+        $name = ITEM54;
+        $title = IEFF54;
+        $item = 25;
+        $effect = 250;
+    }elseif($type==26){
+        $name = ITEM55;
+        $title = IEFF55;
+        $item = 26;
+        $effect = 1000;
+    }elseif($type==27){
+        $name = ITEM56;
+        $title = IEFF56;
+        $item = 27;
+        $effect = 4000;
+    }
+    if($type==28){
+        $name = ITEM57;
+        $title = IEFF57;
+        $item = 28;
+        $effect = 250;
+    }elseif($type==29){
+        $name = ITEM58;
+        $title = IEFF58;
+        $item = 29;
+        $effect = 1000;
+    }elseif($type==30){
+        $name = ITEM59;
+        $title = IEFF59;
+        $item = 30;
+        $effect = 4000;
+    }
+    if($type==31){
+        $name = ITEM60;
+        $title = IEFF60;
+        $item = 31;
+        $effect = 250;
+    }elseif($type==32){
+        $name = ITEM61;
+        $title = IEFF61;
+        $item = 32;
+        $effect = 1000;
+    }elseif($type==33){
+        $name = ITEM62;
+        $title = IEFF62;
+        $item = 33;
+        $effect = 4000;
+    }
+    if($type==34){
+        $name = ITEM63;
+        $title = IEFF63;
+        $item = 34;
+        $effect = 250;
+    }elseif($type==35){
+        $name = ITEM64;
+        $title = IEFF64;
+        $item = 35;
+        $effect = 1000;
+    }elseif($type==36){
+        $name = ITEM65;
+        $title = IEFF65;
+        $item = 36;
+        $effect = 4000;
+    }
+    if($type==37){
+        $name = ITEM66;
+        $title = IEFF66;
+        $item = 37;
+        $effect = 250;
+    }elseif($type==38){
+        $name = ITEM67;
+        $title = IEFF67;
+        $item = 38;
+        $effect = 1000;
+    }elseif($type==39){
+        $name = ITEM68;
+        $title = IEFF68;
+        $item = 39;
+        $effect = 4000;
+    }
+    if($type==40){
+        $name = ITEM69;
+        $title = IEFF69;
+        $item = 40;
+        $effect = 250;
+    }elseif($type==41){
+        $name = ITEM70;
+        $title = IEFF70;
+        $item = 41;
+        $effect = 1000;
+    }elseif($type==42){
+        $name = ITEM71;
+        $title = IEFF71;
+        $item = 42;
+        $effect = 4000;
+    }
+    if($type==43){
+        $name = ITEM72;
+        $title = IEFF72;
+        $item = 43;
+        $effect = 250;
+    }elseif($type==44){
+        $name = ITEM73;
+        $title = IEFF73;
+        $item = 44;
+        $effect = 1000;
+    }elseif($type==45){
+        $name = ITEM74;
+        $title = IEFF74;
+        $item = 45;
+        $effect = 4000;
+    }
+    if($type==46){
+        $name = ITEM75;
+        $title = IEFF75;
+        $item = 46;
+        $effect = 250;
+    }elseif($type==47){
+        $name = ITEM76;
+        $title = IEFF76;
+        $item = 47;
+        $effect = 1000;
+    }elseif($type==48){
+        $name = ITEM77;
+        $title = IEFF77;
+        $item = 48;
+        $effect = 4000;
+    }
+    if($type==49){
+        $name = ITEM78;
+        $title = IEFF78;
+        $item = 49;
+        $effect = 250;
+    }elseif($type==50){
+        $name = ITEM79;
+        $title = IEFF79;
+        $item = 50;
+        $effect = 1000;
+    }elseif($type==51){
+        $name = ITEM80;
+        $title = IEFF80;
+        $item = 51;
+        $effect = 4000;
+    }
+    if($type==52){
+        $name = ITEM81;
+        $title = IEFF81;
+        $item = 52;
+        $effect = 250;
+    }elseif($type==53){
+        $name = ITEM82;
+        $title = IEFF82;
+        $item = 53;
+        $effect = 1000;
+    }elseif($type==54){
+        $name = ITEM83;
+        $title = IEFF83;
+        $item = 54;
+        $effect = 4000;
+    }
+    if($type==55){
+        $name = ITEM84;
+        $title = IEFF84;
+        $item = 55;
+        $effect = 250;
+    }elseif($type==56){
+        $name = ITEM85;
+        $title = IEFF85;
+        $item = 56;
+        $effect = 1000;
+    }elseif($type==57){
+        $name = ITEM86;
+        $title = IEFF86;
+        $item = 57;
+        $effect = 4000;
+    }
+    if($type==58){
+        $name = ITEM87;
+        $title = IEFF87;
+        $item = 58;
+        $effect = 250;
+    }elseif($type==59){
+        $name = ITEM88;
+        $title = IEFF88;
+        $item = 59;
+        $effect = 1000;
+    }elseif($type==60){
+        $name = ITEM89;
+        $title = IEFF89;
+        $item = 60;
+        $effect = 4000;
+    }
+    if($type==115){
+        $name = ITEM115;
+        $title = IEFF115;
+        $item = 115;
+        $effect = 250;
+    }elseif($type==116){
+        $name = ITEM116;
+        $title = IEFF116;
+        $item = 116;
+        $effect = 1000;
+    }elseif($type==117){
+        $name = ITEM117;
+        $title = IEFF117;
+        $item = 117;
+        $effect = 4000;
+    }
+    if($type==118){
+        $name = ITEM118;
+        $title = IEFF118;
+        $item = 118;
+        $effect = 250;
+    }elseif($type==119){
+        $name = ITEM119;
+        $title = IEFF119;
+        $item = 119;
+        $effect = 1000;
+    }elseif($type==120){
+        $name = ITEM120;
+        $title = IEFF120;
+        $item = 120;
+        $effect = 4000;
+    }
+    if($type==121){
+        $name = ITEM121;
+        $title = IEFF121;
+        $item = 121;
+        $effect = 250;
+    }elseif($type==122){
+        $name = ITEM122;
+        $title = IEFF122;
+        $item = 122;
+        $effect = 1000;
+    }elseif($type==123){
+        $name = ITEM123;
+        $title = IEFF123;
+        $item = 123;
+        $effect = 4000;
+    }
+    if($type==124){
+        $name = ITEM124;
+        $title = IEFF124;
+        $item = 124;
+        $effect = 250;
+    }elseif($type==125){
+        $name = ITEM125;
+        $title = IEFF125;
+        $item = 125;
+        $effect = 1000;
+    }elseif($type==126){
+        $name = ITEM126;
+        $title = IEFF126;
+        $item = 126;
+        $effect = 4000;
+    }
+    if($type==127){
+        $name = ITEM127;
+        $title = IEFF127;
+        $item = 127;
+        $effect = 250;
+    }elseif($type==128){
+        $name = ITEM128;
+        $title = IEFF128;
+        $item = 128;
+        $effect = 1000;
+    }elseif($type==129){
+        $name = ITEM129;
+        $title = IEFF129;
+        $item = 129;
+        $effect = 4000;
+    }
+    if($type==130){
+        $name = ITEM130;
+        $title = IEFF130;
+        $item = 130;
+        $effect = 250;
+    }elseif($type==131){
+        $name = ITEM131;
+        $title = IEFF131;
+        $item = 131;
+        $effect = 1000;
+    }elseif($type==132){
+        $name = ITEM132;
+        $title = IEFF132;
+        $item = 132;
+        $effect = 4000;
+    }
+    if($type==133){
+        $name = ITEM133;
+        $title = IEFF133;
+        $item = 133;
+        $effect = 250;
+    }elseif($type==134){
+        $name = ITEM134;
+        $title = IEFF134;
+        $item = 134;
+        $effect = 1000;
+    }elseif($type==135){
+        $name = ITEM135;
+        $title = IEFF135;
+        $item = 135;
+        $effect = 4000;
+    }
+    if($type==136){
+        $name = ITEM136;
+        $title = IEFF136;
+        $item = 136;
+        $effect = 250;
+    }elseif($type==137){
+        $name = ITEM137;
+        $title = IEFF137;
+        $item = 137;
+        $effect = 1000;
+    }elseif($type==138){
+        $name = ITEM138;
+        $title = IEFF138;
+        $item = 138;
+        $effect = 4000;
+    }
+    if($type==139){
+        $name = ITEM139;
+        $title = IEFF139;
+        $item = 139;
+        $effect = 250;
+    }elseif($type==140){
+        $name = ITEM140;
+        $title = IEFF140;
+        $item = 140;
+        $effect = 1000;
+    }elseif($type==141){
+        $name = ITEM141;
+        $title = IEFF141;
+        $item = 141;
+        $effect = 4000;
+    }
+    if($type==142){
+        $name = ITEM142;
+        $title = IEFF142;
+        $item = 142;
+        $effect = 250;
+    }elseif($type==143){
+        $name = ITEM143;
+        $title = IEFF143;
+        $item = 143;
+        $effect = 1000;
+    }elseif($type==144){
+        $name = ITEM144;
+        $title = IEFF144;
+        $item = 144;
+        $effect = 4000;
+    }
+    if($type==145){
+        $name = ITEM145;
+        $title = IEFF145;
+        $item = 145;
+        $effect = 250;
+    }elseif($type==146){
+        $name = ITEM146;
+        $title = IEFF146;
+        $item = 146;
+        $effect = 1000;
+    }elseif($type==147){
+        $name = ITEM147;
+        $title = IEFF147;
+        $item = 147;
+        $effect = 4000;
+    }
+    if($type==148){
+        $name = ITEM148;
+        $title = IEFF148;
+        $item = 148;
+        $effect = 250;
+    }elseif($type==149){
+        $name = ITEM149;
+        $title = IEFF149;
+        $item = 149;
+        $effect = 1000;
+    }elseif($type==150){
+        $name = ITEM150;
+        $title = IEFF150;
+        $item = 150;
+        $effect = 4000;
+    }
+    if($type==151){
+        $name = ITEM151;
+        $title = IEFF151;
+        $item = 151;
+        $effect = 250;
+    }elseif($type==152){
+        $name = ITEM152;
+        $title = IEFF152;
+        $item = 152;
+        $effect = 1000;
+    }elseif($type==153){
+        $name = ITEM153;
+        $title = IEFF153;
+        $item = 153;
+        $effect = 4000;
+    }
+    if($type==154){
+        $name = ITEM154;
+        $title = IEFF154;
+        $item = 154;
+        $effect = 250;
+    }elseif($type==155){
+        $name = ITEM155;
+        $title = IEFF155;
+        $item = 155;
+        $effect = 1000;
+    }elseif($type==156){
+        $name = ITEM156;
+        $title = IEFF156;
+        $item = 156;
+        $effect = 4000;
+    }
+    if($type==157){
+        $name = ITEM157;
+        $title = IEFF157;
+        $item = 157;
+        $effect = 250;
+    }elseif($type==158){
+        $name = ITEM158;
+        $title = IEFF158;
+        $item = 158;
+        $effect = 1000;
+    }elseif($type==159){
+        $name = ITEM159;
+        $title = IEFF159;
+        $item = 159;
+        $effect = 4000;
+    }
+
+      
         
 	}elseif($btype==5){
     

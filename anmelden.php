@@ -36,21 +36,24 @@ if($now < $restartDate){
 ?>
 <!DOCTYPE html>
 <html>
-<?php include("Templates/html.php");?>
-<body class="v35 <?=$database->bodyClass($_SERVER['HTTP_USER_AGENT']); ?> signup perspectiveBuildings">
+<?php include("Templates/html_.php");?>
+<body class="v35 <?=$database->bodyClass($_SERVER['HTTP_USER_AGENT']); ?> login perspectiveBuildings chrome blink en-US ltr mobileOptimized" data-theme="default">
 <div id="background">
-    <img id="staticElements" src="img/x.gif" alt=""/>
     <div id="bodyWrapper">
-        <img style="filter:chroma();" src="img/x.gif" id="msfilter" alt=""/>
-        <div id="header">
-            <div id="mtop">
-                <a id="logo" href="<?php echo HOMEPAGE; ?>" target="_blank" title="<?php echo SERVER_NAME; ?>"></a>
-                <div class="clear"></div>
+        <div id="topBar">
+            <div id="header" class="referAFriend">
+                <img style="filter:chroma();" src="img/x.gif" id="msfilter" alt=""/>
+                <div id="mtop">
+                    <a id="logo" href="<?php echo HOMEPAGE; ?>" target="_blank" title="<?php echo SERVER_NAME; ?>">
+                        <img src="https://test.aspidanetwork.com/gpack/delusion_4.5/img/layout/logoSmall.png" width="300px">
+                    </a>
+                    <div class="clear"></div>
+                </div>
             </div>
         </div>
         <div id="center">
             <?php include('Templates/menu.php');?>
-            <div id="contentOuterContainer" class="size1">
+            <div id="contentOuterContainer" class="size1 contentPage">
                 <div class="contentTitle">&nbsp;</div>
                 <div class="contentContainer">
                     <div id="content" class="signup">
@@ -99,10 +102,10 @@ if($now < $restartDate){
                             </div>			
 
 							<span class="error"><?php echo $form->getError('agree'); ?></span>
-                            <div class="btn">
+                            <center class="btn">
                                 <input type="hidden" name="vid" value="0">
                                 <input type="hidden" name="kid" value="0">
-                                <button type="submit" value="anmelden" name="s1" class="green "  id="btn_signup" title="Register">
+                                <button type="submit" value="anmelden" name="s1" class="green textButtonV1"  id="btn_signup" title="Register">
                                     <div class="button-container addHoverClick ">
                                         <div class="button-background">
                                             <div class="buttonStart">
@@ -114,7 +117,7 @@ if($now < $restartDate){
                                         <div class="button-content"><?php echo REG; ?></div>
                                     </div>
                                 </button>
-                            </div>
+                            </center>
                         </form>
 						<?php } else {
 							echo "<h2><center>Round finished.</h2><hr>";
@@ -128,7 +131,7 @@ if($now < $restartDate){
                     </div>
                     <div class="clear"></div>
                 </div>
-                <div class="contentFooter">&nbsp;</div>
+                <!-- <div class="contentFooter">&nbsp;</div> -->
             </div>
 
         </div>
@@ -139,3 +142,4 @@ if($now < $restartDate){
 	<script src='https://www.google.com/recaptcha/api.js'></script>
 </body>
 </html>
+

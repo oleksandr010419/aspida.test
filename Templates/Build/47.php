@@ -7,13 +7,15 @@
 		</tr><tr>
         <?php 
         if(!$building->isMax($village->resarray['f'.$id.'t'],$id)) {
+
         ?>
 			<th><?php echo C4; ?> <?php echo $next; ?>:</th>
 
 			<td><b><?php echo $bid47[$next]['attri']; ?></b> %</td>
-			<?php
-			}
+            <?php
+        }
             ?>
 		</tr></table>
 
          </div>
+		 

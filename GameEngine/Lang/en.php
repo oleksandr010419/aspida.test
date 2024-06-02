@@ -3681,4 +3681,7 @@ define("exchange6","You do not have enough gold to use this feature!");
 define("exchange7","You do not have enough silver to use this feature!");
 define("exchange8","Exchange now");
 define("DURATION","Duration");
+define("DESC_HELPER_71","The Hoplites were the most common units of the Greek city states. With their universal training and attention to physical fitness, they are moderately good at attacking and can carry many resources. Hoplites also have an average defense, both against infantry and cavalry. Due to the need for comprehensive training, their training time is not the fastest.");
+define("Sentinels dedicate their lives to searching for secrets other tribes might hide. They typically travel on foot and in disguise, which allows them to sneak into highly secured sanctuaries unnoticed. Just like all Spartans, they receive excellent training, which makes them not only tireless runners but also good defenders. In defense, Sentinels stand shoulder to shoulder with others and will fight to the death!");
+
 ?>

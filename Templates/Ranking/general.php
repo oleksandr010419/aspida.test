@@ -5,8 +5,9 @@
    $tribe3 = $database->getUserByTribe(3);
    $tribe4 = $database->getUserByTribe(6);
    $tribe5 = $database->getUserByTribe(7);
-   $tribes = array($tribe1,$tribe2,$tribe3,$tribe4,$tribe5);
-   $users = $tribe1+$tribe2+$tribe3+$tribe4+$tribe5; ?>
+   $tribe6 = $database->getUserByTribe(8);
+   $tribes = array($tribe1,$tribe2,$tribe3,$tribe4,$tribe5,$tribe6,$tribe7,$tribe8);
+   $users = $tribe1+$tribe2+$tribe3+$tribe4+$tribe5+$tribe6; ?>
 <h4 class="round"><?php echo STATISTIC19;?></h4>
 <table  id="world_player" class="transparent">
         <tbody>
@@ -101,6 +102,17 @@
 
                 <td><?php
                    $percents = (($tribes[4] * 100) / $users);
+                   echo number_format($percents , 2, '.', ',' ) ;
+                   echo "%"; ?></td>
+            </tr>
+			<tr class="hover">
+                <td><?php echo TRIBE8;?></td>
+
+                <td><?php
+                   echo $tribes[5] ; ?></td>
+
+                <td><?php
+                   $percents = (($tribes[5] * 100) / $users);
                    echo number_format($percents , 2, '.', ',' ) ;
                    echo "%"; ?></td>
             </tr>

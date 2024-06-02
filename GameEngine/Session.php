@@ -41,8 +41,9 @@ if(!in_array($language, array('gr', 'en', 'tr'))) {
     $language = $_COOKIE['lang'] = 'en';
 }
 
+
 // Load the language file based on the selected language
-include("Lang/" . $language . ".php");
+include("/var/www/html/scripts/public/lang/" . $language . ".php");
 
 if (!empty($_GET['builder'])) {
     if ($_GET['builder'] == 'On') {
@@ -250,6 +251,7 @@ class Session {
 		$this->vote2_link = 'http://topg.org/travian-private-servers/in-409660-'.$this->uid.'x'.SPEED;
 		$this->vote3_link = 'http://www.gtop100.com/topsites/Travian/sitedetails/Aspida-Servers-89726?vote=1&pingUsername='.$this->uid.'x'.SPEED;
     }
+	
 	
 	private function setVotingLinks(){	
         global $database;	

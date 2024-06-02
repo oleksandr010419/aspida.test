@@ -489,12 +489,13 @@ class Building {
 				$id = 40;
 			}
 			//wall
-            if((($tid != 31 && $session->tribe==1) || ($tid != 32 && $session->tribe==2)  || ($tid != 33 && $session->tribe==3) || ($tid != 42 && $session->tribe==6) || ($tid != 43 && $session->tribe==7)  || ($tid != 32 && $session->tribe==2)) && $id==40 || $id==39 && $tid!=16){
+            if((($tid != 31 && $session->tribe==1) || ($tid != 32 && $session->tribe==2)  || ($tid != 33 && $session->tribe==3) || ($tid != 42 && $session->tribe==6) || ($tid != 43 && $session->tribe==7)  || ($tid != 47 && $session->tribe==8)) && $id==40 || $id==39 && $tid!=16){
 				exit;
 			}
 			if($village->resarray['f'.$id.'t']!=0){
 				exit;
 			}
+			
 			$uprequire = $this->resourceRequired($id,$tid);
 			$time = time() + $uprequire['time'];
 			$bindicate = $this->canBuild($id,$village->resarray['f'.$id.'t']);
@@ -557,6 +558,7 @@ $buildconstr3 = $buildcostr[2]['type'];
 			case 33:
 			case 42:
 			case 43:
+			case 47:
 			case 10:
             return $nobuilding;
             break;
@@ -791,6 +793,8 @@ $buildconstr3 = $buildcostr[2]['type'];
                 break;
 			case 43:
                 if($session->tribe==7 && !$this->getTypeLevel(43) && $nobuilding) { return true; } else { return false; }
+			case 47:
+                if($session->tribe==8 && !$this->getTypeLevel(47) && $nobuilding) { return true; } else { return false; }	
                 break;
             case 34:
                 if(!$this->getTypeLevel(34) && $this->getTypeLevel(26) >= 3 && $this->getTypeLevel(15) >= 5 && $this->getTypeLevel(25) == 0 && $nobuilding) { return true; } else { return false; }
@@ -854,10 +858,7 @@ $buildconstr3 = $buildcostr[2]['type'];
             case 45:
                 if($session->tribe == 6 && !$this->getTypeLevel(45) && $this->getTypeLevel(37) >= 10 && $nobuilding) { return true; } else { return false; }
                 break;
-			case 47:
-                if($session->tribe == 8 && !$this->getTypeLevel(47) && $nobuilding) { return true; } else { return false; }
-                break;
-            default :
+			default :
                 return false;
                 break;
         }
@@ -969,6 +970,9 @@ $buildconstr3 = $buildcostr[2]['type'];
                 break;
             case 45:
                 if($session->tribe == 6 && !$this->getTypeLevel(45)  && $nobuilding) { return true; } else { return false; }
+                break;
+				case 47:
+                if($session->tribe == 8 && !$this->getTypeLevel(47)  && $nobuilding) { return true; } else { return false; }
                 break;
             default :
                 return false;

@@ -42,7 +42,7 @@ header("first.php");
                     <th class="submit"></th>
                     <td class="spacer">&nbsp;</td>
                     <td class="submit">
-                        <button type="submit" value="<?=activate2?>" id="ActivateButton" class="green button">
+                        <button type="submit" value="<?=activate2?>" id="ActivateButton" class="green button textButtonV1">
                             <div class="button-container addHoverClick">
                                 <div class="button-background">
                                     <div class="buttonStart">

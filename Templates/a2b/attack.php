@@ -15,6 +15,9 @@ if (!isset($process['t2']) || $process['t2'] == '') {
     $t2 = '0';
 } else {
     $t2 = $process['t2'];
+    if ($session->tribe == 8) {
+        $scout = 1;
+    }
 }
 if (!isset($process['t3']) || $process['t3'] == '') {
     $t3 = '0';
@@ -70,9 +73,12 @@ if (!isset($process['t11']) || $process['t11'] == '') {
 }
 if ($session->tribe == 3 || $session->tribe == 7) {
     $totalunits = $process['t1'] + $process['t2'] + $process['t4'] + $process['t5'] + $process['t6'] + $process['t7'] + $process['t8'] + $process['t9'] + $process['t10'] + $process['t11'];
+} elseif ($session->tribe == 8) {
+    $totalunits = $process['t1'] + $process['t3'] + $process['t4'] + $process['t5'] + $process['t6'] + $process['t7'] + $process['t8'] + $process['t9'] + $process['t10'] + $process['t11'];
 } else {
     $totalunits = $process['t1'] + $process['t2'] + $process['t3'] + $process['t5'] + $process['t6'] + $process['t7'] + $process['t8'] + $process['t9'] + $process['t10'] + $process['t11'];
 }
+
 if ($scout == 1 && $totalunits == 0) {
     if ($process['c'] != 2) {
         $process['c'] = 1;

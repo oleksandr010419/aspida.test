@@ -106,13 +106,25 @@ function removeCache(){
 		}
 	}
 }
-function getWallID($tribe){
-	if($tribe>3){
-		return "4".($tribe-4);
-	}else{
-		return "3".$tribe;
-	}
-}	
+function getWallID($tribe) {
+    switch ($tribe) {
+        case 1:
+            return "31";
+        case 2:
+            return "32";
+        case 3:
+            return "33";
+        case 6:
+            return "42";
+        case 7:
+            return "43";
+        case 8:
+            return "47";
+        default:
+            return "00"; // Default case to handle unexpected tribe IDs
+    }
+}
+
 function gcd ($a, $b) {
     return $b ? gcd($b, $a % $b) : $a;
 }

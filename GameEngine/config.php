@@ -83,7 +83,7 @@ define("STORAGE_BASE",800*STORAGE_MULTIPLIER);
 // Defines world size. NOTICE: DO NOT EDIT!!
 define("WORLD_MAX", "100");
 
-define("INCREASE_SPEED",10);
+define("INCREASE_SPEED",10999);
 
 // ***** Beginners Protection
 define("PHOUR", "3600");

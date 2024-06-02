@@ -79,12 +79,12 @@ if(!in_array($category,array(1,2,3))){
 	
 	
 	
-	
+
 	
 	
 <?php
 $category_1 = array(10,11,15,16,17,18,24,25,26,27,28,34,35,36,37,38,39,40,44);
-$category_2 = array(12,14,19,20,21,22,23,29,30,31,32,33,41,42,43);
+$category_2 = array(12,14,19,20,21,22,23,29,30,31,32,33,41,42,43,47);
 $category_3 = array(5,6,7,8,9,45);
 
 if($id == 39){
@@ -94,7 +94,7 @@ if($id == 39){
 	
 }else if($id==40){
 	$category_2 = array();
-	$category_1 = array(31,32,33,42,43);
+	$category_1 = array(31,32,33,42,43,47);
 	$category_3 = array();
 }
 
