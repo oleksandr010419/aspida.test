@@ -63,74 +63,58 @@ if ($netCropProduction == 0) {
 
 <span id="warehouse" style="display: none;" ><?=$village->maxstore ?></span>
 <span id="granary" style="display: none;" ><?=$village->maxcrop ?></span>
-<ul id="stockBar">
-    <li id="stockBarWarehouseWrapper" class="stock" title="<?=WAREHOUSE?>">
-        <img class="warehouse" src="/img/x.gif" alt="<?=WAREHOUSE?>" />
-        <span class="value" id="stockBarWarehouse"><?php echo $village->maxstore; ?></span>
-    </li>
-    <li id="stockBarResource1" class="stockBarButton" title="<b><?=WOOD?></b>||<?=PROD_HEADER?>: <?php echo $village->getProd("wood"); ?><br><?=FULL_IN?> <?php echo formatTimeToFull($village->awood, $village->getProd("wood"), $village->maxstore); ?></br><?=CLICK_FOR_MORE?>">
-        <div class="begin"></div>
-        <div class="middle">
-            <img class="res r1Big" src="/img/x.gif" alt="<?=WOOD?>"/>
+<div id="stockBar">
+    <div id="stockBarWarehouseWrapper" class="warehouse" title="<?=WAREHOUSE?>">
+        <div class="capacity">
+            <i class="warehouse_medium"></i>
+            <span class="value" id="stockBarWarehouse"><?php echo $village->maxstore; ?></span>
+        </div>
+        <div id="stockBarResource1" class="stockBarButton" title="<b><?=WOOD?></b>||<?=PROD_HEADER?>: <?php echo $village->getProd("wood"); ?><br><?=FULL_IN?> <?php echo formatTimeToFull($village->awood, $village->getProd("wood"), $village->maxstore); ?></br><?=CLICK_FOR_MORE?>">
+            <i class="lumber_small"></i>
             <span id="l1" class="value"><?php echo round($village->awood); ?></span>
             <div class="barBox">
                 <div id="lbar1" class="bar" style="width:<?php echo $wood;?>%;"></div>
             </div>
             <a href="dorf3.php" title="<?=WOOD?>||<?=PROD_HEADER?> : <?php echo $village->getProd("wood"); ?>"><img src="/img/x.gif" alt="" /></a>
         </div>
-        <div class="end"></div>
-    </li>
-    <li id="stockBarResource2" class="stockBarButton" title="<b><?=CLAY?></b>||<?=PROD_HEADER?>: <?php echo $village->getProd("clay"); ?><br><?=FULL_IN?> <?php echo formatTimeToFull($village->aclay, $village->getProd("clay"), $village->maxstore); ?></br><?=CLICK_FOR_MORE?>">
-        <div class="begin"></div>
-        <div class="middle">
-            <img class="res r2Big" src="/img/x.gif" alt="<?=CLAY?>"/>
+        <div id="stockBarResource2" class="stockBarButton" title="<b><?=CLAY?></b>||<?=PROD_HEADER?>: <?php echo $village->getProd("clay"); ?><br><?=FULL_IN?> <?php echo formatTimeToFull($village->aclay, $village->getProd("clay"), $village->maxstore); ?></br><?=CLICK_FOR_MORE?>">
+            <i class="clay_small"></i>
             <span id="l2" class="value"><?php echo round($village->aclay); ?></span>
             <div class="barBox">
                 <div id="lbar2" class="bar" style="width:<?php echo $clay;?>%;"></div>
             </div>
             <a href="dorf3.php" title="<?=CLAY?>||<?=PROD_HEADER?> : <?php echo $village->getProd("clay"); ?>"><img src="/img/x.gif" alt="" /></a>
         </div>
-        <div class="end"></div>
-    </li>
-    <li id="stockBarResource3" class="stockBarButton" title="<b><?=IRON?></b>||<?=PROD_HEADER?>: <?php echo $village->getProd("iron"); ?><br><?=FULL_IN?> <?php echo formatTimeToFull($village->airon, $village->getProd("iron"), $village->maxstore); ?></br><?=CLICK_FOR_MORE?>">
-        <div class="begin"></div>
-        <div class="middle">
-            <img class="res r3Big" src="/img/x.gif" alt="<?=IRON?>"/>
+        <div id="stockBarResource3" class="stockBarButton" title="<b><?=IRON?></b>||<?=PROD_HEADER?>: <?php echo $village->getProd("iron"); ?><br><?=FULL_IN?> <?php echo formatTimeToFull($village->airon, $village->getProd("iron"), $village->maxstore); ?></br><?=CLICK_FOR_MORE?>">
+            <i class="iron_small"></i>
             <span id="l3" class="value"><?php echo round($village->airon); ?></span>
             <div class="barBox">
                 <div id="lbar3" class="bar" style="width:<?php echo $iron;?>%;"></div>
             </div>
             <a href="dorf3.php" title="<?=IRON?>||<?=PROD_HEADER?> : <?php echo $village->getProd("iron"); ?>"><img src="/img/x.gif" alt="" /></a>
         </div>
-        <div class="end"></div>
-    </li>
-    <li id="stockBarGranaryWrapper" class="stock" title="<?=CROP?>">
-        <img class="granary" src="/img/x.gif" alt="<?=CROP?>" />
-        <span class="value" id="stockBarGranary"><?php echo $village->maxcrop; ?></span>
-    </li>
-    <li id="stockBarResource4" class="stockBarButton" title="<b><?=CROP?></b>||<?=PRODUCTION_MINES_THRESHOLD?>: <?php echo $netCropProduction; ?><br><?= $cropStatus ?></br><?=CLICK_FOR_MORE?>">
-        <div class="begin"></div>
-        <div class="middle">
-            <img class="res r4Big" src="/img/x.gif" alt="<?=CROP?>"/>
+    </div>
+    <div id="stockBarGranaryWrapper" class="granary" title="<?=CROP?>">
+        <div class="capacity">
+            <i class="granary_medium"></i>
+            <span class="value" id="stockBarGranary"><?php echo $village->maxcrop; ?></span>
+        </div>
+        <div id="stockBarResource4" class="stockBarButton" title="<b><?=CROP?></b>||<?=PRODUCTION_MINES_THRESHOLD?>: <?php echo $netCropProduction; ?><br><?= $cropStatus ?></br><?=CLICK_FOR_MORE?>">
+            <i class="crop_small"></i>
             <span id="l4" class="value"><?php echo round($village->acrop); ?></span>
             <div class="barBox">
                 <div id="lbar4" class="bar" style="width:<?php echo $crop;?>%;"></div>
             </div>
             <a href="dorf3.php" title="<?=CROP?>||<?=PROD_HEADER?> : <?php echo $village->getProd("crop"); ?>"><img src="/img/x.gif" alt="" /></a>
         </div>
-        <div class="end"></div>
-    </li>
-    <li id="stockBarFreeCropWrapper" class="stockBarButton r5">
-		<div class="begin"></div>
-		<div class="middle">
-			<img class="res r5Big" src="img/x.gif" alt="Free crop">
-			<span id="stockBarFreeCrop" class="value"><?php echo $village->getProd("crop"); ?></span>
-			<a href="dorf3.php"><img src="img/x.gif" alt=""></a>
-		</div>
-		<div class="end"></div>
-	</li>
+        <div id="stockBarFreeCropWrapper" class="stockBarButton r5">
+            <i class="freeCrop_small"></i>
+            <span id="stockBarFreeCrop" class="value"><?php echo $village->getProd("crop"); ?></span>
+            <a href="dorf3.php"><img src="img/x.gif" alt=""></a>
+        </div>
+    </div>
     <li class="clear">&nbsp;</li>
-</ul>
+</div>
 
 
 <?php

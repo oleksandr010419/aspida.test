@@ -1,49 +1,23 @@
-<div id="goldSilver">
-	<div class="gold">
-		<img src="img/x.gif" alt="<?php echo HEADER_GOLD; ?>" title="<?php echo HEADER_GOLD; ?>" class="gold"  />
-		<span id="ajaxReplaceableGoldAmount_2" class="ajaxReplaceableGoldAmount"><?php echo $session->gold; ?></span>
+<div id="goldSilver" class="currency">
+	<i alt="<?php echo HEADER_GOLD; ?>" title="<?php echo HEADER_GOLD; ?>" class="goldCoin_medium"></i>
+	<div id="ajaxReplaceableGoldAmount_2" class="ajaxReplaceableGoldAmount value">
+		<?php echo $session->gold; ?>
 	</div>
-	<div class="silver">
-		<a href="hero_auction.php"><img src="img/x.gif" alt="<?php echo HEADER_SILVER; ?>" title="<?php echo HEADER_SILVER; ?>" class="silver" /></a>
-		<span class="ajaxReplaceableSilverAmount"><?php echo "$session->silver"; ?></span>
+	<!-- <a href="hero_auction.php"> -->
+		<i alt="<?php echo HEADER_SILVER; ?>" title="<?php echo HEADER_SILVER; ?>" class="silverCoin_medium"></i>
+	<!-- </a> -->
+	<div class="ajaxReplaceableSilverAmount value">
+		<?php echo "$session->silver"; ?>
 	</div>
 </div>
-	<ul id="outOfGame" class="RTL">
-			<li class="profile">
-			<a href="spieler.php">
-				<img src="img/x.gif" alt="????? ???????">
-			</a>
-		</li>
-	<li class="options">
-						<a href="options.php">
-					<img src="img/x.gif" alt="??????">
-				</a>
-				</li>
-		<li class="help">
-			<a href="help.php">
-				<img src="img/x.gif" alt="<?=HELP?>">
-			</a>
-		</li>
-       
-		<li class="logout ">
-			<a href="logout.php">
-				<img src="img/x.gif" alt="<?=LOGOUT?>">
-			</a>
-		</li>
+<a href="#" accesskey="7" onclick="window.fireEvent('startPaymentWizard', {}); this.blur(); return false;" id="n7" class="shop"></a>
 
-		<li class="clear">&nbsp;</li>
-		
-		
-	</ul>
 
-	
-	<script type="text/javascript">
-	$$('#outOfGame li.logout a').addEvent('click', function(){
-		Travian.WindowManager.getWindows().each(function($dialog){
+
+<script type="text/javascript">
+	$$('#outOfGame li.logout a').addEvent('click', function () {
+		Travian.WindowManager.getWindows().each(function ($dialog) {
 			Travian.WindowManager.unregister($dialog);
 		});
 	});
-	</script>
-
-
-
+</script>
