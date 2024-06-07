@@ -123,7 +123,7 @@ $building->procBuild($_GET);
             </nav>
         </div>
         <?php include("Templates/topBarHero.php"); ?>
-        <div id="bodyWrapper">
+        <!-- <div id="bodyWrapper"> -->
 
 
 
@@ -141,64 +141,55 @@ $building->procBuild($_GET);
                 <div id="contentOuterContainer" class="size1">
 
 
-                    <div class="contentTitle">
+                    <!-- <div class="contentTitle">
 
-                        &nbsp;</div>
+                        &nbsp;
+                    </div> -->
 
-                    <div class="contentContainer">
+                    <!-- <div class="contentContainer"> -->
 
-                        <div id="content" class="village1">
+                    <div class="village1">
 
-                            <?php
-
-             include("Templates/field.php");
-
-if(!isset($timer)){
-
-                        $timer = 1;
-
-}
-
-                        if ($building->NewBuilding) {
-
-                            include("Templates/Building.php");
-
-                        }
-
+                        <?php
+                            include("Templates/field.php");
+                            if(!isset($timer)) { $timer = 1; }
+                            if ($building->NewBuilding) {
+                                include("Templates/Building.php");
+                            }
                         ?>
 
-                            <div id="map_details">
+                        <div id="map_details">
 
-                                <div class="movements">
-
-                                    <?php
-
-                                include("Templates/movement.php");
-
-                                ?>
-                                </div>
+                            <div class="movements">
 
                                 <?php
 
-                            include("Templates/production.php");
-
-                            include("Templates/troops.php");
-
-                            echo '<div class="clear"></div>';
-
-                            echo '</div>';
+                            include("Templates/movement.php");
 
                             ?>
-                                <div class="clear"></div>
-
-
-
-
-
                             </div>
-                        </div>
 
+                            <?php
+
+                        include("Templates/production.php");
+
+                        include("Templates/troops.php");
+
+                        echo '<div class="clear"></div>';
+
+                        echo '</div>';
+
+                        ?>
+                            <div class="clear"></div>
+
+
+
+
+
+                        </div>
                     </div>
+
+                    <!-- </div> -->
 
                     <?php
 
@@ -224,7 +215,7 @@ if(!isset($timer)){
 
             <div id="ce"></div>
 
-        </div>
+        <!-- </div> -->
 
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110012133-1"></script>
