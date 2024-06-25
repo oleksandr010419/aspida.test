@@ -1,4 +1,4 @@
-<div class="boxes villageList production">
+<div class="boxes villageInfobox production">
     <div class="boxes-tl"></div>
     <div class="boxes-tr"></div>
     <div class="boxes-tc"></div>

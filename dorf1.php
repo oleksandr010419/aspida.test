@@ -132,12 +132,12 @@ $building->procBuild($_GET);
 
 
 
+                
+                
+                
+                
                 <?php include("Templates/sideinfo.php");?>
-
-
-
-
-
+                
                 <div id="contentOuterContainer" class="size1">
 
 
@@ -158,7 +158,7 @@ $building->procBuild($_GET);
                             }
                         ?>
 
-                        <div id="map_details">
+                        <div id="map_details">    
 
                             <div class="movements">
 
