@@ -18,7 +18,7 @@
             <tbody>
             <tr>
                 <td class="ico">
-                    <div><img class="r1Big" src="img/x.gif" alt="<?php echo LUMBER; ?>" title="<?php echo LUMBER; ?>" /></div>
+                    <div><i class="r1" title="<?php echo LUMBER; ?>"></i></div>
                 </td>
                 <td class="res"><?php echo LUMBER; ?>:</td>
                 <td class="num">
@@ -27,7 +27,7 @@
             </tr>
             <tr>
                 <td class="ico">
-                    <div><img class="r2Big" src="img/x.gif" alt="<?php echo CLAY; ?>" title="<?php echo CLAY; ?>" /></div>
+                    <div><i class="r2" title="<?php echo CLAY; ?>"></i></div>
                 </td>
                 <td class="res"><?php echo CLAY; ?>:</td>
                 <td class="num">
@@ -36,7 +36,7 @@
             </tr>
             <tr>
                 <td class="ico">
-                    <div><img class="r3Big" src="img/x.gif" alt="<?php echo IRON; ?>" title="<?php echo IRON; ?>" /></div>
+                    <div><i class="r3" title="<?php echo IRON; ?>"></i></div>
                 </td>
                 <td class="res"><?php echo IRON; ?>:</td>
                 <td class="num">
@@ -45,7 +45,7 @@
             </tr>
             <tr>
                 <td class="ico">
-                    <div><img class="r4Big" src="img/x.gif" alt="<?php echo CROP; ?>" title="<?php echo CROP; ?>" /></div>
+                    <div><i class="r4" title="<?php echo CROP; ?>"></i></div>
                 </td>
                 <td class="res"><?php echo CROP; ?>:</td>
                 <td class="num">

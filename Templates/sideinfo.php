@@ -71,7 +71,7 @@ else{
                             <img class="heroImage" src="<?=$database->herface();?>" width="64px" height="83px"
                                 style="margin-left:10px;margin-top:5px;" alt="">
                         </button>
-                        <?php
+                        <!-- <?php
                             $availiblepoint = $hero['level'] * 4;
                             $freepoints = $availiblepoint - ($hero['power'] + $hero['offBonus'] + $hero['defBonus'] + $hero['product']+1);
                             if($session->heroD['dead']==1){
@@ -83,7 +83,7 @@ else{
                             <div class="bigSpeechBubble levelUp">
                                 <img src="img/x.gif" alt="">
                             </div>
-                        <?php    } ?>
+                        <?php    } ?> -->
                         <button type="button" id="button5225ee283b159" class="layoutButton auctionWhite green  "
                             onclick="return false;" title="">
                             <div class="button-container addHoverClick ">

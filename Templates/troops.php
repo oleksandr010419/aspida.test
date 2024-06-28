@@ -1,4 +1,4 @@
-<div class="boxes villageList units">
+<div class="boxes villageInfobox units">
     <div class="boxes-tl"></div>
     <div class="boxes-tr"></div>
     <div class="boxes-tc"></div>

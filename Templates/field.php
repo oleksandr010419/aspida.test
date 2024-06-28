@@ -43,7 +43,7 @@
 <div id="resourceFieldContainer" class="resourceField3 tribe3">
     <a href="/dorf2.php" class="villageCenter" previewlistener="true"></a>
     <?php
-    var_dump( $village->resarray );
+    // var_dump( $village->resarray );
     for($i=1;$i<=18;$i++) {
         if($village->resarray['f'.$i.'t'] != 0) {
             $text = "";

@@ -44,7 +44,7 @@ $building->procBuild($_GET);
 
         <div id="topBar">
             <a id="logo" href="<?php echo HOMEPAGE; ?>" target="_blank" title="<?php echo SERVER_NAME ?>||">
-                <img src="https://test.aspidanetwork.com/gpack/delusion_4.5/img/layout/logoSmall.png" width="155px">
+                <img src="/gpack/delusion_4.5/img/layout/logoSmall.png" width="155px">
             </a>
 
             <div id="header" class="referAFriend">
@@ -158,28 +158,28 @@ $building->procBuild($_GET);
                             }
                         ?>
 
-                        <div id="map_details">    
+                        <div id="map_details" class="villageInfoWrapper">    
 
-                            <div class="movements">
+                            <!-- <div class="movements">
 
                                 <?php
 
-                            include("Templates/movement.php");
+                                include("Templates/movement.php");
 
-                            ?>
-                            </div>
+                                ?>
+                            </div> -->
 
                             <?php
 
-                        include("Templates/production.php");
+                                include("Templates/production.php");
 
-                        include("Templates/troops.php");
+                                include("Templates/troops.php");
 
-                        echo '<div class="clear"></div>';
+                                echo '<div class="clear"></div>';
 
-                        echo '</div>';
+                                echo '</div>';
 
-                        ?>
+                            ?>
                             <div class="clear"></div>
 
 
