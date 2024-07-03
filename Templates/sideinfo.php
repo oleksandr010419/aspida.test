@@ -66,11 +66,7 @@ else{
             <div class="sidebarBoxInnerBox">
                 <div class="innerBox header ">
                     <div class="buttonsWrapper">
-                        <button id="heroImageButton" onclick="window.location.href='hero_inventory.php';"
-                            class="heroImageButton " type="button" title="Hero overview||<?=$where?>">
-                            <img class="heroImage" src="<?=$database->herface();?>" width="64px" height="83px"
-                                style="margin-left:10px;margin-top:5px;" alt="">
-                        </button>
+
                         <!-- <?php
                             $availiblepoint = $hero['level'] * 4;
                             $freepoints = $availiblepoint - ($hero['power'] + $hero['offBonus'] + $hero['defBonus'] + $hero['product']+1);
@@ -84,11 +80,13 @@ else{
                                 <img src="img/x.gif" alt="">
                             </div>
                         <?php    } ?> -->
-                        <button type="button" id="button5225ee283b159" class="layoutButton auctionWhite green  "
+                        <button type="button" id="button5225ee283b159" class="layoutButton buttonFramed withIcon round auction green      "
                             onclick="return false;" title="">
-                            <div class="button-container addHoverClick ">
-                                <img src="img/x.gif" alt="">
-                            </div>
+                            <svg viewBox="0 0 20.18 19.44" class="auction"><g class="outline">
+                            <path d="M20 9.44l-6.14 6.16a.54.54 0 0 1-.78 0L11 13.5a.56.56 0 0 1 0-.78l1.64-1.64-.64-.64h-1.24l-7.38 8.7L0 15.76l8.67-7.41V7.13l-.57-.57-.74.75a.49.49 0 0 1-.69 0L4.19 4.83a.49.49 0 0 1 0-.69l4-4a.49.49 0 0 1 .69 0l2.45 2.45a.52.52 0 0 1 0 .74l-.45.46.65.65h3.14v3.14l.73.73 1.75-1.75a.54.54 0 0 1 .78 0L20 8.66a.54.54 0 0 1 0 .78zm-9.35 7v3h9v-3z"></path>
+                            </g><g class="icon">
+                            <path d="M20 9.44l-6.14 6.16a.54.54 0 0 1-.78 0L11 13.5a.56.56 0 0 1 0-.78l1.64-1.64-.64-.64h-1.24l-7.38 8.7L0 15.76l8.67-7.41V7.13l-.57-.57-.74.75a.49.49 0 0 1-.69 0L4.19 4.83a.49.49 0 0 1 0-.69l4-4a.49.49 0 0 1 .69 0l2.45 2.45a.52.52 0 0 1 0 .74l-.45.46.65.65h3.14v3.14l.73.73 1.75-1.75a.54.54 0 0 1 .78 0L20 8.66a.54.54 0 0 1 0 .78zm-9.35 7v3h9v-3z"></path>
+                            </g></svg>
                         </button>
 
                         <script type="text/javascript">
@@ -100,28 +98,16 @@ else{
                                 });
                             }
                             </script>
-                            <button type="button" id="button5225ee283b28a" class="layoutButton adventureWhite green  "
+                            <!-- <button type="button" id="button5225ee283b28a" class="layoutButton buttonFramed withIcon round adventure green    attention"
                                 title="Adventure:||Available adventures: <?php echo count($adventures); ?>"
                                 onclick="return false;">
-                                <div class="button-container addHoverClick ">
-                                    <img src="img/x.gif" alt="">
-                                </div>
+                                
                                 <?php if(count($adventures) > 0){ ?>
-                                <div class="speechBubbleContainer ">
-                                    <div class="speechBubbleBackground">
-                                        <div class="start">
-                                            <div class="end">
-                                                <div class="middle"></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="speechBubbleContent">
-                                        <?php echo count($adventures); ?>
-                                    </div>
-                                </div>
+                                    <div class="content"><?php echo count($adventures); ?></div>
+
                                 <?php } ?>
                                 <div class="clear"></div>
-                            </button>
+                            </button> -->
         
                             <script type="text/javascript">
         
@@ -131,6 +117,11 @@ else{
                                     });
                                 }
                             </script>
+                                                    <!-- <button id="heroImageButton" onclick="window.location.href='hero_inventory.php';"
+                            class="heroImageButton " type="button" title="Hero overview||<?=$where?>">
+                            <img class="heroImage" src="<?=$database->herface();?>" width="64px" height="83px"
+                                style="margin-left:10px;margin-top:5px;" alt="">
+                        </button> -->
                     </div>
                 </div>
 

@@ -23,18 +23,18 @@ if (isset($_GET['lang'])) {
     $selectedLang = isset($_SESSION['selectedLang']) ? $_SESSION['selectedLang'] : 'en';
 }
 
-// Generate the language selection dropdown menu.
-echo '<div id="languages">';
-echo '<form action="' . $_SERVER['PHP_SELF'] . '" method="get">';
-echo '<select name="lang" id="langSelect" onchange="this.form.submit()">';
-foreach ($languages as $code => $name) {
-    echo '<option value="' . $code . '"';
-    if ($selectedLang == $code) {
-        echo ' selected="selected"'; // Mark the selected language as default.
-    }
-    echo '>' . $name . '</option>';
-}
-echo '</select>';
-echo '</form>';
-echo '</div>';
+// // Generate the language selection dropdown menu.
+// echo '<div id="languages">';
+// echo '<form action="' . $_SERVER['PHP_SELF'] . '" method="get">';
+// echo '<select name="lang" id="langSelect" onchange="this.form.submit()">';
+// foreach ($languages as $code => $name) {
+//     echo '<option value="' . $code . '"';
+//     if ($selectedLang == $code) {
+//         echo ' selected="selected"'; // Mark the selected language as default.
+//     }
+//     echo '>' . $name . '</option>';
+// }
+// echo '</select>';
+// echo '</form>';
+// echo '</div>';
 ?>
