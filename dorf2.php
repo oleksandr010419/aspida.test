@@ -1,8 +1,8 @@
 <?php
 include "GameEngine/Village.php";
-$_SESSION['dorf']=$session->link=2;
-if(isset($_GET['visit'])){
-    $database->UpdateAchievU($session->uid,"`a7`=1"); //ачивка за группу
+$_SESSION['dorf'] = $session->link = 2;
+if (isset($_GET['visit'])) {
+    $database->UpdateAchievU($session->uid, "`a7`=1"); //ачивка за группу
     header("Location:dorf2.php");
     exit;
 }
@@ -10,8 +10,8 @@ if(isset($_GET['visit'])){
 include("GameEngine/Building.php");
 include("GameEngine/Technology.php");
 
-    $building->procBuild($_GET);
-$_SESSION['dorf']=2;
+$building->procBuild($_GET);
+$_SESSION['dorf'] = 2;
 
 if (isset($_GET['pivo'])) {
 
@@ -30,71 +30,50 @@ if (isset($_GET['pivo'])) {
                 $lvll = $lvl['f' . $i];
             }
         }
-        if($lvll){
-        $bre = $bid35[$lvll]['attri'];
-        $database->throwBeerParty($bre, $wid, $session->uid);
+        if ($lvll) {
+            $bre = $bid35[$lvll]['attri'];
+            $database->throwBeerParty($bre, $wid, $session->uid);
         }
     }
 }
 ?>
-<!DOCTYPE html >
+<!DOCTYPE html>
 <html>
-<?php include("Templates/html.php");?>
+<?php include("Templates/html.php"); ?>
 
-<body class="v35 <?=$database->bodyClass($_SERVER['HTTP_USER_AGENT']); ?> village2 perspectiveBuildings">
-<script type="text/javascript">
-    window.ajaxToken = 'de3768730d5610742b5245daa67b12cd';
-</script>
-<div id="background">
-    <div id="headerBar"></div>
-    <div id="bodyWrapper">
+<body class="v35 <?= $database->bodyClass($_SERVER['HTTP_USER_AGENT']); ?> village2 blink en-US perspectiveBuildings ltr oldBuildingIcons" data-theme="default">
+    <script type="text/javascript">
+        window.ajaxToken = 'de3768730d5610742b5245daa67b12cd';
+    </script>
+    <div id="background">
+        <?php include("topBar.php"); ?>
+        <?php include("Templates/topBarHero.php"); ?>
 
-        <div id="header">
-            <div id="mtop">
-            <?php
-            include("Templates/topheader.php");
-            include("Templates/toolbar.php");
-            ?>
-        </div>
-</div>
         <div id="center">
 
             <?php include("Templates/sideinfo.php"); ?>
-            <div id="contentOuterContainer" class="size1">
-                <?php include("Templates/res.php"); ?>
-                <div class="contentTitle">&nbsp;</div>
-                <div class="contentContainer">
-                    <div id="content" class="village2">
-                     <div   class="villageMapWrapper">
+            <div id="contentOuterContainer" class="">
+                <div class="village2">
+                    <?php
+                        //include("Templates/res.php");
+                    ?>
+                    <div id="villageContent">
+                        <?php include("Templates/dorf2.php"); ?>
 
-
-
-            <?php include("Templates/dorf2.php");
-
-            ?>
-
-                     </div>
-                        <?php
+                    </div>
+                    <?php
                         if ($building->NewBuilding) {
                             include("Templates/Building.php");
                         }
-                        ?>
-                        <div class="clear"></div>
-                    </div>
+                    ?>
                 </div>
-                <div class="contentFooter">&nbsp;</div>
             </div>
-
-            <?php
-            include("Templates/rightsideinfor.php");
-            ?>
+            <?php include("Templates/rightsideinfor.php"); ?>
+            <?php include("Templates/header.php"); ?>
             <div class="clear"></div>
         </div>
-        <?php
-        include("Templates/header.php");
-        ?>
+        <div id="ce"></div>
     </div>
-    <div id="ce"></div>
-</div>
 </body>
+
 </html>
