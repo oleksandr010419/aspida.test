@@ -89,22 +89,22 @@ if (isset($_GET['delprisoners'])) {
         $p_reference = $database->addAttack($prisoner['from'], $prisoner['t1'], $prisoner['t2'], $prisoner['t3'], $prisoner['t4'], $prisoner['t5'], $prisoner['t6'], $prisoner['t7'], $prisoner['t8'], $prisoner['t9'], $prisoner['t10'], $prisoner['t11'], 3, 0, 0, 0, 0);
         $database->insertQueue($p_reference, 2, time(), ($p_time + time()));
         $database->addMovement(4, $prisoner['wref'], $prisoner['from'], $p_reference, time(), ($p_time + time()));
-        
+
         $troops = $prisoner['t1'] + $prisoner['t2'] + $prisoner['t3'] + $prisoner['t4'] + $prisoner['t5'] + $prisoner['t6'] + $prisoner['t7'] + $prisoner['t8'] + $prisoner['t9'] + $prisoner['t10'] + $prisoner['t11'];
-        
+
         $database->modifyTraps($prisoner['wref'], $troops, 2);
         $database->deletePrisoners($prisoner['id']);
     } else if ($prisoner['from'] == $village->wid || isset($_GET['killprisoners'])) {
         //kill
         $troops = $prisoner['t1'] + $prisoner['t2'] + $prisoner['t3'] + $prisoner['t4'] + $prisoner['t5'] + $prisoner['t6'] + $prisoner['t7'] + $prisoner['t8'] + $prisoner['t9'] + $prisoner['t10'] + $prisoner['t11'];
-        
+
         if ($prisoner['t11'] > 0) {
             $p_owner = $database->getVillageField($prisoner['from'], "owner");
             $database->KillMyHero($p_owner);
         }
-            
+
         $database->modifyTraps($prisoner['wref'], $troops, 2);
-        $database->query("UPDATE `units` SET `u99`= u99 - " . floor($troops*25/100) . " WHERE `vref` =:V", array('V' => $prisoner['wref']));
+        $database->query("UPDATE `units` SET `u99`= u99 - " . floor($troops * 25 / 100) . " WHERE `vref` =:V", array('V' => $prisoner['wref']));
         $database->deletePrisoners($prisoner['id']);
     }
 }
@@ -160,7 +160,7 @@ if (isset($_GET['type']) && in_array($_GET['type'], array(1, 2)) && isset($_GET[
 ob_start();
 
 $ww = $village->natar;
-if ($_GET['id'] == 99 AND $ww == 0 || $_GET['id'] != 99 && $_GET['id'] >= 41) {
+if ($_GET['id'] == 99 and $ww == 0 || $_GET['id'] != 99 && $_GET['id'] >= 41) {
     header("Location: dorf1.php");
     exit();
 }
@@ -190,7 +190,7 @@ if (isset($_GET['id'])) {
 
     if ($village->resarray['f' . $_GET['id'] . 't'] == 18) {
 
-        include ("GameEngine/Alliance.php");
+        include("GameEngine/Alliance.php");
         $alliance->procAlliance($_GET);
         $alliance->procAlliForm($_POST);
     }
@@ -289,153 +289,164 @@ if (isset($_GET['id'])) {
 ?>
 <!DOCTYPE html>
 <html>
-    <?php include("Templates/html.php"); ?>
-    <body class="v35 <?= $database->bodyClass($_SERVER['HTTP_USER_AGENT']); ?> build gidRes <?php
-    if ($dorf1 == '') {
-        echo 'perspectiveBuildings';
-    } else {
-        echo 'perspectiveResources';
-    }
-    ?>">
-        <script type="text/javascript">
+<?php include("Templates/html.php"); ?>
 
-            window.ajaxToken = 'de3768730d5610742b5245daa67b12cd';
-        </script>
-        <div id="background">
-            <div id="headerBar"></div>
-            <div id="bodyWrapper">
+<body class="v35 <?= $database->bodyClass($_SERVER['HTTP_USER_AGENT']); ?> build gidRes ltr <?php
+                                                                                            if ($dorf1 == '') {
+                                                                                                echo 'perspectiveBuildings';
+                                                                                            } else {
+                                                                                                echo 'perspectiveResources';
+                                                                                            }
+                                                                                            ?>" data-theme="default">
+    <script type="text/javascript">
+        window.ajaxToken = 'de3768730d5610742b5245daa67b12cd';
+    </script>
+    <div id="background">
+        
+        <?php include("topBar.php"); ?>
+        <?php include("Templates/topBarHero.php"); ?>
 
-                <div id="header">
-                    <div id="mtop">
-                        <?php
-                        include("Templates/topheader.php");
-                        include("Templates/toolbar.php");
-                        ?>
-                    </div>
+        <!-- <div id="header">
+            <div id="mtop"> -->
+                <?php
+                //include("Templates/topheader.php");
+                //include("Templates/toolbar.php");
+                ?>
+            <!-- </div>
+        </div> -->
+        <div id="center">
+            <?php include("Templates/sideinfo.php"); ?>
+            <div id="contentOuterContainer" class=" contentPage">
+                <div class="contentTitle buttonCount2">
+                    <a id="closeContentButton" class="contentTitleButton buttonFramed green withIcon rectangle" href="dorf<?= $session->link ?>.php" title="Close window">
+                        <svg viewBox="0 0 20 20"><g class="outline">
+                        <path d="M0 17.01L7.01 10 .14 3.13 3.13.14 10 7.01 17.01 0 20 2.99 12.99 10l6.87 6.87-2.99 2.99L10 12.99 2.99 20 0 17.01z"></path>
+                        </g><g class="icon">
+                        <path d="M0 17.01L7.01 10 .14 3.13 3.13.14 10 7.01 17.01 0 20 2.99 12.99 10l6.87 6.87-2.99 2.99L10 12.99 2.99 20 0 17.01z"></path>
+                        </g></svg>
+                    </a>
+                    <a id="knowledgeBaseButton" class="contentTitleButton buttonFramed green withIcon rectangle" href="http://t4.answers.travian.com/index.php?aid=106#go2answer" target="_blank" title="Travian Answers">
+                        &nbsp;
+                    </a>
                 </div>
-                <div id="center">
-                        <?php include("Templates/sideinfo.php"); ?>
-                    <div id="contentOuterContainer" class="size1">
-<?php include("Templates/res.php"); ?>
-                        <div class="contentTitle"><a id="closeContentButton" class="contentTitleButton" href="dorf<?= $session->link ?>.php" title="Close window">&nbsp;</a>
-                            <a id="answersButton" class="contentTitleButton" href="http://t4.answers.travian.com/index.php?aid=106#go2answer" target="_blank" title="Travian Answers">&nbsp;</a></div>
 
-                        <div class="contentContainer">
-                            <div id="content" class="build" >
-                                <?php
-                                if (isset($_GET['id']) or isset($_GET['gid'])) {
-
-                                    $id = $_GET['id'];
-
-
-
-                                    if ($id == '99' AND $village->resarray['f99t'] == 40 AND $ww == 1) {
-                                        if (isset($_POST['wwname']) and ! empty($_POST['wwname'])) {
-                                            if ($village->resarray['wwname'] != $_POST['wwname']) {
-                                                $database->submitWWname($village->wid, $_POST['wwname']);
-                                                header("Location: build.php?id=99&n");
-                                                exit();
-                                            }
-                                        }
-                                        include("Templates/Build/ww.php");
-                                    } else {
-
-                                        if ($village->resarray['f' . $_GET['id'] . 't'] == 0 && $_GET['id'] >= 19) {
-                                            include("Templates/Build/avaliable.php");
-                                        } else {
-                                            if (file_exists("Templates/Build/" . $village->resarray['f' . $_GET['id'] . 't'] . ".php")) {
-                                                $cur = $building->isCurrent($id);
-                                                $loop = $building->isLoop($id);
-                                                $master = $building->isMaster($id);
-                                                $loopsame = ($cur || $loop) ? 1 : 0;
-                                                $doublebuild = ($cur && $loop) ? 1 : 0;
-                                                $next = $village->resarray['f' . $_GET['id']]+1;
-                                                ?>
-                                                <h1 class="titleInHeader"><?= $lang['buildings'][$village->resarray['f' . $id . 't']] ?> <span class="level"> <?= LEVEL ?> <?= $village->resarray['f' . $id] ?></span></h1>
-                                                <div id="build" class="gid<?= $village->resarray['f' . $id . 't'] ?>">
-                                                    <?php /*<a class="build_logo" href="#">
-                                                        <img class="big black g<?= $village->resarray['f' . $id . 't'] ?>" alt="<?= $lang['buildings'][$village->resarray['f' . $id . 't']] ?>" src="img/x.gif">
-                                                    </a>*/?>
-                                                    <?php if($village->resarray['f' . $id . 't'] == 17){
-                                                         include("Templates/Build/17_menu.php");
-                                                    }?>
-                                                    <?php if(!isset($_GET['t'])){?>
-                                                    <div id="descriptionAndInfo">
-                                                        <div class="build_desc">
-                                                            <?= $lang['desc'][$village->resarray['f' . $id . 't']][0] ?>
-                                                            <?php 
-                                                            if(in_array($village->resarray['f' . $id . 't'],array(1,2,3,4,5,6,7,8,9,10,11,14,15,23,31,32,33,34,35,36,38,39,41,42,43,45,47))){//12,16,17,18,19,20,21,22,24,25,26,27,28,29,30,37,44
-                                                                include("Templates/Build/" . $village->resarray['f' . $id . 't'] . ".php");
-                                                            }?>
-                                                        </div>
-                                                    </div>
-                                                    <div class="clear"></div>
-                                                    <div class="roundedCornersBox big ">
-                                                        <div class="stickyImage">
-                                                            <a class="build_logo" href="#" onclick="return Travian.Game.iPopup(4<?= $village->resarray['f' . $id . 't']?>);">
-															<img class="big black g<?= $village->resarray['f' . $id . 't'] ?>" alt="<?= $lang['buildings'][$village->resarray['f' . $id . 't']] ?>" src="img/x.gif"></a>
-
-                                                                
-                                                          
-                                                        </div>
-                                                        <h4><?= $lang['buildings'][$village->resarray['f' . $id . 't']] ?></h4>
-                                                        <div id="contractSpacer"></div>
-                                                        <?php include("Templates/Build/upgrade.php"); ?>
-                                                        <div class="clear"></div>
-                                                    </div>
-                                                    <?php } ?>
-                                                    <?php 
-                                                    if(!in_array($village->resarray['f' . $id . 't'],array(1,2,3,4,5,6,7,8,9,10,11,14,15,23,31,32,33,34,35,36,38,39,41,42,43,45,47))){//16,17,18,19,20,21,22,24,25,26,27,28,29,30,37,44
-                                                        include("Templates/Build/" . $village->resarray['f' . $id . 't'] . ".php"); 
-                                                    }?>
-                                                    <div class="clear"></div>
-                                                    
-                                                    <?php
-                                                    /*
-                                                    $upgrade = false;
-                                                    $next = $village->resarray['f' . $id] + 1 + $loopsame + $doublebuild + $master;
-
-                                                    if ($village->resarray['f' . $id . 't'] > 11 && !in_array($village->resarray['f' . $id . 't'], array(14, 15, 23, 31, 32, 33, 34, 35, 38, 39))) {
-
-                                                        $upgrade = true;
-                                                        include("Templates/Build/upgrade.php");
-                                                    }
-                                                    include("Templates/Build/" . $village->resarray['f' . $id . 't'] . ".php");
-
-                                                    if (!$upgrade) {
-                                                        include("Templates/Build/upgrade.php");
-                                                    }
-
-                                                    //
-                                                    */
-                                                    echo '</div>';
-                                                } else {
-                                                    header("Location: dorf1.php");
-                                                    exit();
-                                                }
-                                            }
-                                        }
-                                    }
-                                    ?>
-                                    <div class="clear">&nbsp;</div>
-                                </div>
-                                <div class="clear"></div>
-                            </div>
-                            <div class="contentFooter">&nbsp;</div>
-                        </div>
+                <div class="contentContainer">
+                    <div id="content" class="build">
                         <?php
-                        include("Templates/rightsideinfor.php");
+                        if (isset($_GET['id']) or isset($_GET['gid'])) {
+
+                            $id = $_GET['id'];
+
+
+
+                            if ($id == '99' and $village->resarray['f99t'] == 40 and $ww == 1) {
+                                if (isset($_POST['wwname']) and !empty($_POST['wwname'])) {
+                                    if ($village->resarray['wwname'] != $_POST['wwname']) {
+                                        $database->submitWWname($village->wid, $_POST['wwname']);
+                                        header("Location: build.php?id=99&n");
+                                        exit();
+                                    }
+                                }
+                                include("Templates/Build/ww.php");
+                            } else {
+
+                                if ($village->resarray['f' . $_GET['id'] . 't'] == 0 && $_GET['id'] >= 19) {
+                                    include("Templates/Build/avaliable.php");
+                                } else {
+                                    if (file_exists("Templates/Build/" . $village->resarray['f' . $_GET['id'] . 't'] . ".php")) {
+                                        $cur = $building->isCurrent($id);
+                                        $loop = $building->isLoop($id);
+                                        $master = $building->isMaster($id);
+                                        $loopsame = ($cur || $loop) ? 1 : 0;
+                                        $doublebuild = ($cur && $loop) ? 1 : 0;
+                                        $next = $village->resarray['f' . $_GET['id']] + 1;
                         ?>
-                        <div class="clear"></div>
+                                        <h1 class="titleInHeader">
+                                            <?= $lang['buildings'][$village->resarray['f' . $id . 't']] ?>
+                                            <span class="level"> <?= LEVEL ?> <?= $village->resarray['f' . $id] ?></span>
+                                        </h1>
+                                        <div id="build" class="gid<?= $village->resarray['f' . $id . 't'] ?>">
+                                            <?php /*<a class="build_logo" href="#">
+                                                    <img class="big black g<?= $village->resarray['f' . $id . 't'] ?>" alt="<?= $lang['buildings'][$village->resarray['f' . $id . 't']] ?>" src="img/x.gif">
+                                                </a>*/ ?>
+                                            <?php if ($village->resarray['f' . $id . 't'] == 17) {
+                                                include("Templates/Build/17_menu.php");
+                                            } ?>
+                                            <?php if (!isset($_GET['t'])) { ?>
+                                                <div id="descriptionAndInfo">
+                                                    <div class="build_desc">
+                                                        <?= $lang['desc'][$village->resarray['f' . $id . 't']][0] ?>
+                                                        <?php
+                                                        if (in_array($village->resarray['f' . $id . 't'], array(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 14, 15, 23, 31, 32, 33, 34, 35, 36, 38, 39, 41, 42, 43, 45, 47))) { //12,16,17,18,19,20,21,22,24,25,26,27,28,29,30,37,44
+                                                            include("Templates/Build/" . $village->resarray['f' . $id . 't'] . ".php");
+                                                        } ?>
+                                                    </div>
+                                                </div>
+                                                <div class="clear"></div>
+                                                <div class="roundedCornersBox big ">
+                                                    <div class="stickyImage">
+                                                        <a class="build_logo" href="#" onclick="return Travian.Game.iPopup(4<?= $village->resarray['f' . $id . 't'] ?>);">
+                                                            <img class="big black g<?= $village->resarray['f' . $id . 't'] ?>" alt="<?= $lang['buildings'][$village->resarray['f' . $id . 't']] ?>" src="img/x.gif"></a>
+
+
+
+                                                    </div>
+                                                    <h4><?= $lang['buildings'][$village->resarray['f' . $id . 't']] ?></h4>
+                                                    <div id="contractSpacer"></div>
+                                                    <?php include("Templates/Build/upgrade.php"); ?>
+                                                    <div class="clear"></div>
+                                                </div>
+                                            <?php } ?>
+                                            <?php
+                                            if (!in_array($village->resarray['f' . $id . 't'], array(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 14, 15, 23, 31, 32, 33, 34, 35, 36, 38, 39, 41, 42, 43, 45, 47))) { //16,17,18,19,20,21,22,24,25,26,27,28,29,30,37,44
+                                                include("Templates/Build/" . $village->resarray['f' . $id . 't'] . ".php");
+                                            } ?>
+                                            <div class="clear"></div>
+
+                            <?php
+                                        /*
+                                                $upgrade = false;
+                                                $next = $village->resarray['f' . $id] + 1 + $loopsame + $doublebuild + $master;
+
+                                                if ($village->resarray['f' . $id . 't'] > 11 && !in_array($village->resarray['f' . $id . 't'], array(14, 15, 23, 31, 32, 33, 34, 35, 38, 39))) {
+
+                                                    $upgrade = true;
+                                                    include("Templates/Build/upgrade.php");
+                                                }
+                                                include("Templates/Build/" . $village->resarray['f' . $id . 't'] . ".php");
+
+                                                if (!$upgrade) {
+                                                    include("Templates/Build/upgrade.php");
+                                                }
+
+                                                //
+                                                */
+                                        echo '</div>';
+                                    } else {
+                                        header("Location: dorf1.php");
+                                        exit();
+                                    }
+                                }
+                            }
+                        }
+                            ?>
+                            <div class="clear">&nbsp;</div>
+                                        </div>
+                                        <div class="clear"></div>
                     </div>
-                    <?php
-                    include("Templates/header.php");
-                    ?>
+                    <div class="contentFooter">&nbsp;</div>
+                </div>
+                <?php
+                include("Templates/rightsideinfor.php");
+                ?>
+                <div class="clear"></div>
+            </div>
+            <?php
+            include("Templates/header.php");
+            ?>
 
-                    <div id="ce"></div>
-                </div></div>
+            <div id="ce"></div>
+        </div>
+</body>
 
-    </body>
 </html>
-
-
